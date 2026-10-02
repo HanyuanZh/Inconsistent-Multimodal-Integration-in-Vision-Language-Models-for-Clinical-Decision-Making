@@ -77,11 +77,8 @@ _LOCAL_BINARY = Recipe("prob", 16, label_channel=True)
 _LOCAL_AMD = Recipe("prob", 2048)
 _AMD_STRICT = ("medgemma4", "medgemma27", "qwen36")
 
-# Gemini: temperature 1.0, default thinking level.  The cap was 2048 in the
-# original runs; 8192 is the default here because six main-grid requests spent
-# all 2048 tokens on thinking and had to be re-issued at 8192 (temperature 1
-# makes the runs non-deterministic anyway, and a larger cap only matters when
-# 2048 would have truncated).
+# Gemini: temperature 1.0, default thinking level, output capped at 8192 tokens
+# (thinking counts towards the cap).
 _GEMINI = Recipe("json", 8192, temperature=1.0)
 
 # GPT: temperature 1.0 (the model rejects other values), default reasoning effort.

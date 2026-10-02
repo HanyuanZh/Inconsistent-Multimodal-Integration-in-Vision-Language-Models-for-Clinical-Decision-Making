@@ -121,7 +121,7 @@ def skin_units(data, case_filter=None):
         paths = {"clinic": data.image_path(row["clinic"]), "derm": data.image_path(row["derm"])}
         if not all(p.exists() for p in paths.values()):
             continue
-        case_key, seed_key = data.case_key(row), data.legacy_key(row)
+        case_key, seed_key = data.case_key(row), data.noise_seed_key(row)
         if case_filter is not None and not case_filter(case_key):
             continue
         for base in ("clinic", "derm"):

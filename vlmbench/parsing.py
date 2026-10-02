@@ -17,9 +17,7 @@ import re
 from typing import Optional
 
 _ANCHOR = re.compile(r"[Pp]\s*=\s*(\d*\.?\d+)")
-# A decimal; whitespace after the point is tolerated because MedGemma-4B sometimes
-# writes "0.  85".  Without this, "0.  85" fell through to the bare-0/1 rule below
-# and was read as 0.0.
+# A decimal; whitespace after the point is tolerated ("0.  85" reads as 0.85).
 _DECIMAL = re.compile(r"\d+\.\s*\d+")
 _PERCENT = re.compile(r"(\d+(?:\.\d+)?)\s*%")
 _BARE_01 = re.compile(r"\b[01]\b")

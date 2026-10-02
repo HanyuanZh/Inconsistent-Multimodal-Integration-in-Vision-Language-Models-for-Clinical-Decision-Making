@@ -52,8 +52,8 @@ class SkinData:
         return _text(row.get("case_num")) or _text(row.get("case_id"))
 
     @staticmethod
-    def legacy_key(row):
-        """Key that seeds the placebo noise images (case_id first, as in the original runs)."""
+    def noise_seed_key(row):
+        """Key that seeds the placebo noise images: case_id when present, else case_num."""
         return _text(row.get("case_id")) or _text(row.get("case_num")) or _text(row.get("clinic"))
 
     @staticmethod
