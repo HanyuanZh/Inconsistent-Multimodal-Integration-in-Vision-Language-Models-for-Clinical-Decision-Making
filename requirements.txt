@@ -1,0 +1,12 @@
+# MedGemma, Lingshu, Qwen3.6, Gemini and GPT.  Versions of the environment used in the study.
+torch==2.11.0
+torchvision==0.26.0
+transformers==5.13.1
+accelerate==1.13.0
+qwen-vl-utils==0.0.14
+google-genai==2.11.0
+openai==2.46.0
+pandas==3.0.2
+numpy==2.4.6
+pillow==11.3.0
+pytest

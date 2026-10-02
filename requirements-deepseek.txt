@@ -1,0 +1,9 @@
+# DeepSeek-VL2 needs its own environment: its remote code requires transformers 4.38.
+torch==2.6.0
+transformers==4.38.2
+accelerate==0.27.2
+pandas==2.3.3
+numpy==1.26.4
+pillow==12.2.0
+timm==0.9.16
+deepseek_vl2 @ git+https://github.com/deepseek-ai/DeepSeek-VL2.git@ef9f91e2b6426536b83294c11742c27be66361b1

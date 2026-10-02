@@ -1,0 +1,2677 @@
+[
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.0, \"prob_wet_amd\": 0.6, \"prob_pcv\": 0.4}",
+"expected": [
+0.0,
+0.0,
+0.6,
+0.4
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.04, \"prob_wet_amd\": 0.25, \"prob_pcv\": 0.70}",
+"expected": [
+0.01,
+0.04,
+0.25,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":0,\"prob_normal\":0.97,\"prob_dry_amd\":0.025,\"prob_wet_amd\":0.004,\"prob_pcv\":0.001}",
+"expected": [
+0.97,
+0.025,
+0.004,
+0.001
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 0, \"prob_normal\": 0.98, \"prob_dry_amd\": 0.01, \"prob_wet_amd\": 0.005, \"prob_pcv\": 0.005}",
+"expected": [
+0.98,
+0.01,
+0.005,
+0.005
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.12,\"prob_dry_amd\":0.86,\"prob_wet_amd\":0.015,\"prob_pcv\":0.005}",
+"expected": [
+0.12,
+0.86,
+0.015,
+0.005
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.02,\"prob_dry_amd\":0.76,\"prob_wet_amd\":0.08,\"prob_pcv\":0.14}",
+"expected": [
+0.02,
+0.76,
+0.08,
+0.14
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.04, \"prob_wet_amd\": 0.85, \"prob_pcv\": 0.10}",
+"expected": [
+0.01,
+0.04,
+0.85,
+0.1
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.09, \"prob_wet_amd\": 0.65, \"prob_pcv\": 0.25}",
+"expected": [
+0.01,
+0.09,
+0.65,
+0.25
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.002,\"prob_dry_amd\":0.008,\"prob_wet_amd\":0.19,\"prob_pcv\":0.8}",
+"expected": [
+0.002,
+0.008,
+0.19,
+0.8
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 0, \"prob_normal\": 0.96, \"prob_dry_amd\": 0.02, \"prob_wet_amd\": 0.01, \"prob_pcv\": 0.01}",
+"expected": [
+0.96,
+0.02,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":0,\"prob_normal\":0.97,\"prob_dry_amd\":0.02,\"prob_wet_amd\":0.008,\"prob_pcv\":0.002}",
+"expected": [
+0.97,
+0.02,
+0.008,
+0.002
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.04,\"prob_wet_amd\":0.57,\"prob_pcv\":0.38}",
+"expected": [
+0.01,
+0.04,
+0.57,
+0.38
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 0, \"prob_normal\": 0.95, \"prob_dry_amd\": 0.03, \"prob_wet_amd\": 0.01, \"prob_pcv\": 0.01}",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.15,\"prob_dry_amd\":0.82,\"prob_wet_amd\":0.025,\"prob_pcv\":0.005}",
+"expected": [
+0.15,
+0.82,
+0.025,
+0.005
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.05,\"prob_wet_amd\":0.72,\"prob_pcv\":0.22}",
+"expected": [
+0.01,
+0.05,
+0.72,
+0.22
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.02,\"prob_dry_amd\":0.22,\"prob_wet_amd\":0.68,\"prob_pcv\":0.08}",
+"expected": [
+0.02,
+0.22,
+0.68,
+0.08
+]
+},
+{
+"kind": "amd_json",
+"raw": "```json\n{\n  \"amd_class\": 2,\n  \"prob_normal\": 0.01,\n  \"prob_dry_amd\": 0.19,\n  \"prob_wet_amd\": 0.65,\n  \"prob_pcv\": 0.15\n}\n```",
+"expected": [
+0.01,
+0.19,
+0.65,
+0.15
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.02,\"prob_dry_amd\":0.13,\"prob_wet_amd\":0.76,\"prob_pcv\":0.09}",
+"expected": [
+0.02,
+0.13,
+0.76,
+0.09
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.08,\"prob_dry_amd\":0.88,\"prob_wet_amd\":0.03,\"prob_pcv\":0.01}",
+"expected": [
+0.08,
+0.88,
+0.03,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":0,\"prob_normal\":0.96,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.008,\"prob_pcv\":0.002}",
+"expected": [
+0.96,
+0.03,
+0.008,
+0.002
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.04, \"prob_wet_amd\": 0.2, \"prob_pcv\": 0.75}",
+"expected": [
+0.01,
+0.04,
+0.2,
+0.75
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.26,\"prob_pcv\":0.7}",
+"expected": [
+0.01,
+0.03,
+0.26,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.001,\"prob_dry_amd\":0.004,\"prob_wet_amd\":0.12,\"prob_pcv\":0.875}",
+"expected": [
+0.001,
+0.004,
+0.12,
+0.875
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":0,\"prob_normal\":0.96,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.007,\"prob_pcv\":0.003}",
+"expected": [
+0.96,
+0.03,
+0.007,
+0.003
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.005,\"prob_dry_amd\":0.015,\"prob_wet_amd\":0.32,\"prob_pcv\":0.66}",
+"expected": [
+0.005,
+0.015,
+0.32,
+0.66
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.08,\"prob_wet_amd\":0.72,\"prob_pcv\":0.19}",
+"expected": [
+0.01,
+0.08,
+0.72,
+0.19
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.14, \"prob_wet_amd\": 0.8, \"prob_pcv\": 0.05}",
+"expected": [
+0.01,
+0.14,
+0.8,
+0.05
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.34,\"prob_pcv\":0.62}",
+"expected": [
+0.01,
+0.03,
+0.34,
+0.62
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.0, \"prob_wet_amd\": 0.15, \"prob_pcv\": 0.85}",
+"expected": [
+0.0,
+0.0,
+0.15,
+0.85
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.05,\"prob_dry_amd\":0.78,\"prob_wet_amd\":0.14,\"prob_pcv\":0.03}",
+"expected": [
+0.05,
+0.78,
+0.14,
+0.03
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":0,\"prob_normal\":0.98,\"prob_dry_amd\":0.015,\"prob_wet_amd\":0.004,\"prob_pcv\":0.001}",
+"expected": [
+0.98,
+0.015,
+0.004,
+0.001
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.05, \"prob_wet_amd\": 0.65, \"prob_pcv\": 0.30}",
+"expected": [
+0.0,
+0.05,
+0.65,
+0.3
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.06,\"prob_dry_amd\":0.9,\"prob_wet_amd\":0.03,\"prob_pcv\":0.01}",
+"expected": [
+0.06,
+0.9,
+0.03,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.02, \"prob_wet_amd\": 0.18, \"prob_pcv\": 0.80}",
+"expected": [
+0.0,
+0.02,
+0.18,
+0.8
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.02,\"prob_wet_amd\":0.82,\"prob_pcv\":0.15}",
+"expected": [
+0.01,
+0.02,
+0.82,
+0.15
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.002,\"prob_dry_amd\":0.003,\"prob_wet_amd\":0.115,\"prob_pcv\":0.88}",
+"expected": [
+0.002,
+0.003,
+0.115,
+0.88
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.25,\"prob_pcv\":0.71}",
+"expected": [
+0.01,
+0.03,
+0.25,
+0.71
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.02,\"prob_wet_amd\":0.27,\"prob_pcv\":0.7}",
+"expected": [
+0.01,
+0.02,
+0.27,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.04,\"prob_dry_amd\":0.94,\"prob_wet_amd\":0.015,\"prob_pcv\":0.005}",
+"expected": [
+0.04,
+0.94,
+0.015,
+0.005
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.12,\"prob_wet_amd\":0.51,\"prob_pcv\":0.36}",
+"expected": [
+0.01,
+0.12,
+0.51,
+0.36
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.02,\"prob_dry_amd\":0.06,\"prob_wet_amd\":0.52,\"prob_pcv\":0.4}",
+"expected": [
+0.02,
+0.06,
+0.52,
+0.4
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.05, \"prob_wet_amd\": 0.9, \"prob_pcv\": 0.05}",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.001,\"prob_dry_amd\":0.004,\"prob_wet_amd\":0.195,\"prob_pcv\":0.8}",
+"expected": [
+0.001,
+0.004,
+0.195,
+0.8
+]
+},
+{
+"kind": "amd_json",
+"raw": "```json\n{\n  \"amd_class\": 0,\n  \"prob_normal\": 0.8,\n  \"prob_dry_amd\": 0.15,\n  \"prob_wet_amd\": 0.03,\n  \"prob_pcv\": 0.02\n}\n```",
+"expected": [
+0.8,
+0.15,
+0.03,
+0.02
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.01,\"prob_dry_amd\":0.97,\"prob_wet_amd\":0.015,\"prob_pcv\":0.005}",
+"expected": [
+0.01,
+0.97,
+0.015,
+0.005
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 0, \"prob_normal\": 0.90, \"prob_dry_amd\": 0.08, \"prob_wet_amd\": 0.01, \"prob_pcv\": 0.01}",
+"expected": [
+0.9,
+0.08,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 0, \"prob_normal\": 0.85, \"prob_dry_amd\": 0.12, \"prob_wet_amd\": 0.02, \"prob_pcv\": 0.01}",
+"expected": [
+0.85,
+0.12,
+0.02,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.08,\"prob_dry_amd\":0.84,\"prob_wet_amd\":0.05,\"prob_pcv\":0.03}",
+"expected": [
+0.08,
+0.84,
+0.05,
+0.03
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.001,\"prob_dry_amd\":0.004,\"prob_wet_amd\":0.255,\"prob_pcv\":0.74}",
+"expected": [
+0.001,
+0.004,
+0.255,
+0.74
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.08,\"prob_wet_amd\":0.26,\"prob_pcv\":0.65}",
+"expected": [
+0.01,
+0.08,
+0.26,
+0.65
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":0,\"prob_normal\":0.98,\"prob_dry_amd\":0.017,\"prob_wet_amd\":0.002,\"prob_pcv\":0.001}",
+"expected": [
+0.98,
+0.017,
+0.002,
+0.001
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.18,\"prob_dry_amd\":0.76,\"prob_wet_amd\":0.05,\"prob_pcv\":0.01}",
+"expected": [
+0.18,
+0.76,
+0.05,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.005,\"prob_dry_amd\":0.015,\"prob_wet_amd\":0.18,\"prob_pcv\":0.8}",
+"expected": [
+0.005,
+0.015,
+0.18,
+0.8
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.04, \"prob_wet_amd\": 0.25, \"prob_pcv\": 0.7}",
+"expected": [
+0.01,
+0.04,
+0.25,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.04,\"prob_wet_amd\":0.30,\"prob_pcv\":0.65}",
+"expected": [
+0.01,
+0.04,
+0.3,
+0.65
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 1, \"prob_normal\": 0.05, \"prob_dry_amd\": 0.85, \"prob_wet_amd\": 0.07, \"prob_pcv\": 0.03}",
+"expected": [
+0.05,
+0.85,
+0.07,
+0.03
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.28,\"prob_pcv\":0.68}",
+"expected": [
+0.01,
+0.03,
+0.28,
+0.68
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.05, \"prob_wet_amd\": 0.35, \"prob_pcv\": 0.60}",
+"expected": [
+0.0,
+0.05,
+0.35,
+0.6
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.30,\"prob_wet_amd\":0.64,\"prob_pcv\":0.05}",
+"expected": [
+0.01,
+0.3,
+0.64,
+0.05
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.76,\"prob_pcv\":0.2}",
+"expected": [
+0.01,
+0.03,
+0.76,
+0.2
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.04,\"prob_wet_amd\":0.58,\"prob_pcv\":0.37}",
+"expected": [
+0.01,
+0.04,
+0.58,
+0.37
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.17,\"prob_wet_amd\":0.73,\"prob_pcv\":0.09}",
+"expected": [
+0.01,
+0.17,
+0.73,
+0.09
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.23,\"prob_pcv\":0.73}",
+"expected": [
+0.01,
+0.03,
+0.23,
+0.73
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.001,\"prob_dry_amd\":0.004,\"prob_wet_amd\":0.295,\"prob_pcv\":0.7}",
+"expected": [
+0.001,
+0.004,
+0.295,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "```json\n{\n  \"amd_class\": 3,\n  \"prob_normal\": 0.0,\n  \"prob_dry_amd\": 0.01,\n  \"prob_wet_amd\": 0.29,\n  \"prob_pcv\": 0.70\n}\n```",
+"expected": [
+0.0,
+0.01,
+0.29,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.27,\"prob_pcv\":0.69}",
+"expected": [
+0.01,
+0.03,
+0.27,
+0.69
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 1, \"prob_normal\": 0.05, \"prob_dry_amd\": 0.70, \"prob_wet_amd\": 0.18, \"prob_pcv\": 0.07}",
+"expected": [
+0.05,
+0.7,
+0.18,
+0.07
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 0, \"prob_normal\": 0.85, \"prob_dry_amd\": 0.10, \"prob_wet_amd\": 0.03, \"prob_pcv\": 0.02}",
+"expected": [
+0.85,
+0.1,
+0.03,
+0.02
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.19, \"prob_wet_amd\": 0.65, \"prob_pcv\": 0.15}",
+"expected": [
+0.01,
+0.19,
+0.65,
+0.15
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.05,\"prob_dry_amd\":0.91,\"prob_wet_amd\":0.03,\"prob_pcv\":0.01}",
+"expected": [
+0.05,
+0.91,
+0.03,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.002,\"prob_dry_amd\":0.008,\"prob_wet_amd\":0.16,\"prob_pcv\":0.83}",
+"expected": [
+0.002,
+0.008,
+0.16,
+0.83
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\n  \"amd_class\": 3,\n  \"prob_normal\": 0.01,\n  \"prob_dry_amd\": 0.04,\n  \"prob_wet_amd\": 0.25,\n  \"prob_pcv\": 0.70\n}",
+"expected": [
+0.01,
+0.04,
+0.25,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.001,\"prob_dry_amd\":0.009,\"prob_wet_amd\":0.12,\"prob_pcv\":0.87}",
+"expected": [
+0.001,
+0.009,
+0.12,
+0.87
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.81,\"prob_pcv\":0.15}",
+"expected": [
+0.01,
+0.03,
+0.81,
+0.15
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.05,\"prob_dry_amd\":0.67,\"prob_wet_amd\":0.24,\"prob_pcv\":0.04}",
+"expected": [
+0.05,
+0.67,
+0.24,
+0.04
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.001,\"prob_dry_amd\":0.004,\"prob_wet_amd\":0.145,\"prob_pcv\":0.85}",
+"expected": [
+0.001,
+0.004,
+0.145,
+0.85
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.02,\"prob_wet_amd\":0.35,\"prob_pcv\":0.62}",
+"expected": [
+0.01,
+0.02,
+0.35,
+0.62
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.08,\"prob_dry_amd\":0.9,\"prob_wet_amd\":0.015,\"prob_pcv\":0.005}",
+"expected": [
+0.08,
+0.9,
+0.015,
+0.005
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.02,\"prob_wet_amd\":0.22,\"prob_pcv\":0.75}",
+"expected": [
+0.01,
+0.02,
+0.22,
+0.75
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 1, \"prob_normal\": 0.02, \"prob_dry_amd\": 0.85, \"prob_wet_amd\": 0.10, \"prob_pcv\": 0.03}",
+"expected": [
+0.02,
+0.85,
+0.1,
+0.03
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.08,\"prob_wet_amd\":0.34,\"prob_pcv\":0.57}",
+"expected": [
+0.01,
+0.08,
+0.34,
+0.57
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.001,\"prob_dry_amd\":0.004,\"prob_wet_amd\":0.245,\"prob_pcv\":0.75}",
+"expected": [
+0.001,
+0.004,
+0.245,
+0.75
+]
+},
+{
+"kind": "amd_json",
+"raw": "```json\n{\"amd_class\": 2, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.05, \"prob_wet_amd\": 0.85, \"prob_pcv\": 0.1}\n```",
+"expected": [
+0.0,
+0.05,
+0.85,
+0.1
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.05, \"prob_wet_amd\": 0.85, \"prob_pcv\": 0.10}",
+"expected": [
+0.0,
+0.05,
+0.85,
+0.1
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.12,\"prob_dry_amd\":0.82,\"prob_wet_amd\":0.05,\"prob_pcv\":0.01}",
+"expected": [
+0.12,
+0.82,
+0.05,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.08,\"prob_dry_amd\":0.82,\"prob_wet_amd\":0.08,\"prob_pcv\":0.02}",
+"expected": [
+0.08,
+0.8200000000000001,
+0.08,
+0.02
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":0,\"prob_normal\":0.92,\"prob_dry_amd\":0.07,\"prob_wet_amd\":0.008,\"prob_pcv\":0.002}",
+"expected": [
+0.92,
+0.07,
+0.008,
+0.002
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.02, \"prob_wet_amd\": 0.27, \"prob_pcv\": 0.7}",
+"expected": [
+0.01,
+0.02,
+0.27,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.12,\"prob_wet_amd\":0.25,\"prob_pcv\":0.62}",
+"expected": [
+0.01,
+0.12,
+0.25,
+0.62
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.01,\"prob_wet_amd\":0.23,\"prob_pcv\":0.75}",
+"expected": [
+0.01,
+0.01,
+0.23,
+0.75
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.23,\"prob_wet_amd\":0.61,\"prob_pcv\":0.15}",
+"expected": [
+0.01,
+0.23,
+0.61,
+0.15
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.01,\"prob_wet_amd\":0.35,\"prob_pcv\":0.63}",
+"expected": [
+0.01,
+0.01,
+0.35,
+0.63
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.02, \"prob_wet_amd\": 0.17, \"prob_pcv\": 0.8}",
+"expected": [
+0.01,
+0.02,
+0.17,
+0.8
+]
+},
+{
+"kind": "amd_json",
+"raw": "```json\n{\n  \"amd_class\": 3,\n  \"prob_normal\": 0.01,\n  \"prob_dry_amd\": 0.02,\n  \"prob_wet_amd\": 0.27,\n  \"prob_pcv\": 0.70\n}\n```",
+"expected": [
+0.01,
+0.02,
+0.27,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.01, \"prob_dry_amd\": 0.02, \"prob_wet_amd\": 0.17, \"prob_pcv\": 0.80}",
+"expected": [
+0.01,
+0.02,
+0.17,
+0.8
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.15,\"prob_wet_amd\":0.78,\"prob_pcv\":0.06}",
+"expected": [
+0.01,
+0.15,
+0.78,
+0.06
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.02, \"prob_dry_amd\": 0.03, \"prob_wet_amd\": 0.10, \"prob_pcv\": 0.85}",
+"expected": [
+0.02,
+0.03,
+0.1,
+0.85
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.05,\"prob_wet_amd\":0.34,\"prob_pcv\":0.6}",
+"expected": [
+0.01,
+0.05,
+0.34,
+0.6
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.0, \"prob_wet_amd\": 0.3, \"prob_pcv\": 0.7}",
+"expected": [
+0.0,
+0.0,
+0.3,
+0.7
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 3, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.0, \"prob_wet_amd\": 0.2, \"prob_pcv\": 0.8}",
+"expected": [
+0.0,
+0.0,
+0.2,
+0.8
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.02,\"prob_dry_amd\":0.95,\"prob_wet_amd\":0.02,\"prob_pcv\":0.01}",
+"expected": [
+0.02,
+0.95,
+0.02,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.06,\"prob_wet_amd\":0.28,\"prob_pcv\":0.65}",
+"expected": [
+0.01,
+0.06,
+0.28,
+0.65
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.08,\"prob_wet_amd\":0.68,\"prob_pcv\":0.23}",
+"expected": [
+0.01,
+0.08,
+0.68,
+0.23
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.01,\"prob_dry_amd\":0.03,\"prob_wet_amd\":0.19,\"prob_pcv\":0.77}",
+"expected": [
+0.01,
+0.03,
+0.19,
+0.77
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.005,\"prob_dry_amd\":0.045,\"prob_wet_amd\":0.85,\"prob_pcv\":0.1}",
+"expected": [
+0.005,
+0.045,
+0.85,
+0.1
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.04,\"prob_wet_amd\":0.78,\"prob_pcv\":0.17}",
+"expected": [
+0.01,
+0.04,
+0.78,
+0.17
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.02,\"prob_dry_amd\":0.86,\"prob_wet_amd\":0.08,\"prob_pcv\":0.04}",
+"expected": [
+0.02,
+0.86,
+0.08,
+0.04
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 2, \"prob_normal\": 0.0, \"prob_dry_amd\": 0.1, \"prob_wet_amd\": 0.8, \"prob_pcv\": 0.1}",
+"expected": [
+0.0,
+0.1,
+0.8,
+0.1
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.03,\"prob_dry_amd\":0.93,\"prob_wet_amd\":0.03,\"prob_pcv\":0.01}",
+"expected": [
+0.03,
+0.93,
+0.03,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":3,\"prob_normal\":0.005,\"prob_dry_amd\":0.015,\"prob_wet_amd\":0.23,\"prob_pcv\":0.75}",
+"expected": [
+0.005,
+0.015,
+0.23,
+0.75
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":0,\"prob_normal\":0.89,\"prob_dry_amd\":0.08,\"prob_wet_amd\":0.02,\"prob_pcv\":0.01}",
+"expected": [
+0.89,
+0.08,
+0.02,
+0.01
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\": 1, \"prob_normal\": 0.05, \"prob_dry_amd\": 0.85, \"prob_wet_amd\": 0.08, \"prob_pcv\": 0.02}",
+"expected": [
+0.05,
+0.85,
+0.08,
+0.02
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.01,\"prob_dry_amd\":0.82,\"prob_wet_amd\":0.12,\"prob_pcv\":0.05}",
+"expected": [
+0.01,
+0.82,
+0.12,
+0.05
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":1,\"prob_normal\":0.01,\"prob_dry_amd\":0.68,\"prob_wet_amd\":0.14,\"prob_pcv\":0.17}",
+"expected": [
+0.01,
+0.68,
+0.14,
+0.17
+]
+},
+{
+"kind": "amd_json",
+"raw": "{\"amd_class\":2,\"prob_normal\":0.01,\"prob_dry_amd\":0.25,\"prob_wet_amd\":0.71,\"prob_pcv\":0.03}",
+"expected": [
+0.01,
+0.25,
+0.71,
+0.03
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Image Analysis:**\nThe CFP image shows the fundus of the eye. I'm looking for signs of AMD, such as drusen, pigmentary changes (hyper- or hypopigmentation), geographic atrophy, retinal pigment epithelium (RPE) changes, or signs of choroidal neovascularization (CNV) like leakage or hemorrhage.\n- There are some areas of apparent hypopigmentation in the macula.\n- There might be some subtle changes in the RPE, but it's not very clear.\n- No obvious signs of hemorrhage or exudation are visible.\n- No obvious signs of polypoidal lesions are visible.\n\n**OCT Image Analysis:**\nThe OCT image provides a cross-sectional view of the retina and choroid. I'm looking for:\n- Drusen (hyperreflective deposits above the RPE).\n- RPE changes (irregularity, atrophy).\n- Subretinal fluid (SRF) or intraretinal fluid (IRF).\n- CNV (abnormal vessels in the choroid or beneath the RPE).\n- Geographic atrophy (loss of photoreceptors and RPE).\n- Polypoidal lesions (vascular structures in the choroid).\n\n- The OCT image shows a relatively smooth RPE contour, although there might be subtle irregularities.\n- There are some small, punctate hyperreflective spots just above the RPE, which could represent small drusen.\n- There is no evidence of significant subretinal fluid, intraretinal fluid, or CNV.\n- There is no evidence of geographic atrophy or polypoidal lesions.\n\n**Synthesis and Classification:**\n- The CFP shows some subtle RPE changes and possible hypopigmentation.\n- The OCT shows possible small drusen but no signs of advanced dry AMD (like atrophy) or wet AMD (fluid, CNV).\n- There are no features suggestive of PCV.\n\nGiven the presence of possible small drusen and subtle RPE changes, but the absence of significant findings like atrophy, fluid, or CNV, the most likely classification is early or intermediate dry AMD.\n\n**Probability Estimation:**\n- **Normal (0):** While there are some subtle findings, the absence of significant pathology makes \"Normal\" less likely than \"dry AMD\". Probability: 0.10\n- **Dry AMD (1):** The presence of possible small drusen and subtle RPE changes points towards dry AMD, likely in an early or intermediate stage. Probability: 0.70\n- **Wet AMD (2):** There is no evidence of fluid, hemorrhage, or CNV, making wet AMD very unlikely. Probability: 0.05\n- **PCV (3):** There are no features suggestive of PCV. Probability: 0.15\n\n**Final Output:**\nNormal=0.10 dry=0.70 wet=0.05 PCV=0.15",
+"expected": [
+0.1,
+0.7,
+0.05,
+0.15
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal imaging (CFP and OCT), let's analyze the features to classify the eye into one of the four categories: Normal, dry AMD, wet AMD, or PCV.\n\n**CFP Analysis:**\nThe color fundus photograph shows the macula and surrounding retina.\n- There are no obvious signs of drusen, pigmentary changes, or atrophy typically associated with dry AMD.\n- There are no signs of subretinal fluid, hemorrhage, or neovascularization characteristic of wet AMD.\n- There are no signs of branching vascular networks or polypoidal lesions typical of PCV.\n- The fovea appears relatively normal, and the retinal vessels seem unremarkable.\n\n**OCT Analysis:**\nThe optical coherence tomography (OCT) scan provides a cross-sectional view of the retina.\n- The retinal layers appear well-defined and organized.\n- There is no evidence of subretinal fluid, intraretinal fluid, or choroidal neovascularization (CNV).\n- The retinal pigment epithelium (RPE) appears intact.\n- The foveal contour seems normal.\n- There are no signs of drusen or RPE atrophy.\n\n**Conclusion:**\nBased on both the CFP and OCT images, there are no clear signs of AMD (dry or wet) or PCV. The retinal structures appear normal.\n\n**Probability Estimation:**\n- Normal: The images show no significant pathology, suggesting a normal eye. Probability = 0.95\n- dry AMD: No drusen, RPE changes, or atrophy are visible. Probability = 0.03\n- wet AMD: No signs of CNV, subretinal fluid, or hemorrhage are present. Probability = 0.01\n- PCV: No characteristic polypoidal lesions or branching vascular networks are seen. Probability = 0.01\n\n**Output:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the OCT image provided:\n\n1.  **Analysis**: The image shows a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). This is a Pigment Epithelial Detachment (PED).\n2.  **Content of PED**: The space beneath the elevated RPE is filled with heterogeneous, medium-to-high reflectivity material (hyperreflective). It is not optically empty (which would suggest a serous PED) nor is it purely dark (which would suggest a drusenoid PED). The internal reflectivity suggests the presence of fibrovascular tissue or organized exudate.\n3.  **Differentiation**:\n    *   **Normal (0)**: Incorrect. There is clear pathology.\n    *   **Dry AMD (1)**: Incorrect. While drusen are present, the large, complex PED with sub-RPE material is characteristic of neovascular disease, not just atrophic/dry changes.\n    *   **PCV (3)**: PCV typically presents with a \"double-layer sign\" or distinct polypoidal structures. While possible, the morphology here is more consistent with a standard fibrovascular PED.\n    *   **Wet AMD (2)**: This is the most likely classification. The presence of a fibrovascular PED (indicated by the internal reflectivity) is a hallmark of neovascular (wet) AMD. The overlying retina is also slightly distorted, consistent with the mass effect of the lesion.\n\nTherefore, the probability is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.00 dry=0.00 wet=0.00 PCV=0.00",
+"expected": null
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal images (CFP and OCT), let's analyze the findings to classify the eye.\n\n**CFP Analysis:**\n*   The image shows a fundus view of the retina.\n*   There are visible drusen, which are yellowish deposits under the retina. These are characteristic of Age-related Macular Degeneration (AMD).\n*   There is evidence of pigmentary changes (hyperpigmentation and hypopigmentation) in the macula.\n*   There is no obvious sign of subretinal fluid, hemorrhage, or neovascularization visible in the CFP.\n\n**OCT Analysis:**\n*   The OCT image shows a cross-sectional view of the macula.\n*   There is evidence of drusen accumulation.\n*   There is RPE (Retinal Pigment Epithelium) atrophy and irregularity.\n*   There is no evidence of subretinal fluid, intraretinal fluid, or choroidal neovascularization (CNV) in the OCT image.\n\n**Classification:**\n*   The presence of drusen, RPE changes, and pigmentary changes in both CFP and OCT are indicative of AMD.\n*   The absence of signs of choroidal neovascularization (like subretinal fluid or hemorrhage on CFP, or CNV on OCT) rules out wet AMD (neovascular AMD).\n*   The findings are consistent with dry AMD (non-neovascular AMD), characterized by drusen and RPE changes.\n*   Polypoidal choroidal vasculopathy (PCV) typically presents with specific features like branching vascular networks and polyps, which are not evident here.\n*   The eye does not appear normal, as there are clear signs of AMD.\n\n**Probability Estimation:**\n*   **Normal (0):** The presence of drusen and RPE changes clearly indicates pathology, so the probability of being normal is very low.\n*   **Dry AMD (1):** The findings (drusen, RPE changes, pigmentary changes, no signs of neovascularization) are highly characteristic of dry AMD. This is the most likely diagnosis.\n*   **Wet AMD (2):** The absence of subretinal fluid, hemorrhage, or CNV makes wet AMD unlikely.\n*   **PCV (3):** The specific features of PCV are not present.\n\nTherefore, the highest probability is for dry AMD.\n\nNormal=0.05 dry=0.85 wet=0.05 PCV=0.05",
+"expected": [
+0.05,
+0.85,
+0.05,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the fundus photograph:\n1.  **Hard Exudates:** There are prominent, bright yellow, waxy deposits (hard exudates) arranged in a circinate pattern (ring-like) in the temporal macula. This is a hallmark sign of chronic vascular leakage.\n2.  **Hemorrhage:** There appears to be a dark area of subretinal or intraretinal hemorrhage adjacent to the exudates.\n3.  **Pathology:** The combination of significant exudation and hemorrhage indicates active neovascularization (wet AMD). Dry AMD typically presents with drusen and atrophy without such extensive exudation or hemorrhage. PCV is a subtype of wet AMD but often presents with distinct polypoidal lesions and subretinal hemorrhage; while possible, the classic circinate exudates are more strongly associated with typical CNV (wet AMD). Normal is ruled out due to obvious pathology.\n\nTherefore, the probability is highest for wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retina shows significant structural abnormalities. There is a large, elevated lesion disrupting the retinal pigment epithelium (RPE) and Bruch's membrane, accompanied by subretinal fluid and intraretinal cysts (cystoid macular edema). These features—specifically the presence of subretinal fluid and the disruption of the outer retinal layers—are characteristic of neovascular (wet) age-related macular degeneration (AMD). The image does not show the drusen or atrophy typical of dry AMD, nor does it display the specific polypoidal structures of PCV (though PCV is a subtype of wet AMD, the general \"wet\" category is the primary classification for this exudative presentation). The second image is noise and irrelevant.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the analysis is as follows:\n\n1.  **Image Analysis**: The OCT scan shows a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). This is a Pigment Epithelial Detachment (PED).\n2.  **Differentiation**:\n    *   **Normal**: Ruled out due to the clear structural abnormality.\n    *   **Dry AMD**: Typically presents with drusen (small bumps) or geographic atrophy (flat areas). While this is a PED, the specific morphology here is more aggressive.\n    *   **Wet AMD (CNV)**: The presence of a PED is a hallmark of neovascular AMD. The hyperreflective material within/under the PED suggests the presence of Choroidal Neovascularization (CNV). The \"double layer\" sign or irregular hyperreflectivity is often associated with Type 1 CNV.\n    *   **PCV**: PCV is a subtype of neovascular AMD characterized by polypoidal lesions. On OCT, PCV often presents as a \"double-layer sign\" (a hyperreflective line above the RPE) or a distinct, highly reflective, lobulated PED. The image shows a very sharp, triangular, and highly reflective peak, which is highly characteristic of the polypoidal structures or the associated fibrovascular tissue seen in PCV. While wet AMD (CNV) is a strong candidate, the specific morphology of a discrete, high-reflectivity PED is a classic presentation for PCV in classification datasets.\n\nGiven the high reflectivity and distinct shape of the PED, this is most consistent with Polypoidal Choroidal Vasculopathy (PCV).\n\nNormal=0.0000 dry=0.0000 wet=0.1000 PCV=0.9000",
+"expected": [
+0.0,
+0.0,
+0.1,
+0.9
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the eye shows significant pathology. The image displays a large, hyperreflective subretinal lesion with associated intraretinal fluid (cystic spaces) and disruption of the retinal pigment epithelium (RPE). These features are characteristic of neovascular (wet) Age-related Macular Degeneration (AMD), specifically indicating the presence of a choroidal neovascular membrane (CNVM) and exudation. There is no evidence of the drusen or geographic atrophy typical of dry AMD, nor the specific polypoidal structures of PCV (though PCV is a subtype of wet AMD, the general \"wet\" category is the primary fit for this exudative presentation). The image is clearly not normal.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal imaging (CFP and OCT), let's analyze the features to classify the eye.\n\n**CFP Analysis:**\n*   The image shows the macula and surrounding retina.\n*   There are no obvious signs of drusen, pigmentary changes, or atrophy typically associated with dry AMD.\n*   There are no signs of subretinal fluid, hemorrhage, or neovascularization characteristic of wet AMD.\n*   There are no features suggestive of PCV, such as branching vascular networks or polypoidal lesions.\n*   The overall appearance seems relatively normal, although the image quality might be slightly suboptimal.\n\n**OCT Analysis:**\n*   The OCT scan shows the retinal layers in cross-section.\n*   The foveal pit appears relatively normal in shape.\n*   There is no evidence of subretinal fluid, intraretinal fluid, or choroidal neovascularization (CNV) that would indicate wet AMD.\n*   There are no significant changes in retinal pigment epithelium (RPE) or choroid that would suggest PCV.\n*   The retinal layers appear intact and well-defined, without the thinning or disruption seen in advanced dry AMD.\n\n**Conclusion:**\nBased on both the CFP and OCT images, there are no clear signs of dry AMD, wet AMD, or PCV. The findings are most consistent with a normal eye, or at least an eye without significant signs of AMD or PCV detectable in these images.\n\n**Probability Estimation:**\n*   Normal: The absence of specific signs for other conditions makes \"Normal\" the most likely classification. Probability = 0.90\n*   Dry AMD: No drusen or RPE changes are clearly visible. Probability = 0.05\n*   Wet AMD: No signs of fluid, hemorrhage, or CNV. Probability = 0.03\n*   PCV: No characteristic features are present. Probability = 0.02\n\n**Output:**\nNormal=0.90 dry=0.05 wet=0.03 PCV=0.02",
+"expected": [
+0.9,
+0.05,
+0.03,
+0.02
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Analysis:**\n*   The image shows the fundus of the eye.\n*   There are some areas of hyperpigmentation (dark spots) in the macula.\n*   There is no obvious evidence of drusen, retinal pigment epithelium (RPE) atrophy, or neovascularization (blood vessel leakage or growth).\n*   The optic disc and retinal vessels appear relatively normal.\n\n**OCT Analysis:**\n*   The OCT scan shows cross-sectional layers of the retina.\n*   The foveal pit appears relatively normal in shape.\n*   There is no significant subretinal fluid, intraretinal fluid, or pigment epithelial detachment (PED) suggestive of wet AMD.\n*   There is no evidence of choroidal polyps characteristic of PCV.\n*   The retinal layers appear relatively intact, without significant thinning or atrophy typical of advanced dry AMD.\n\n**Classification:**\n*   **Normal (0):** The findings are not entirely normal, as there are some pigmentary changes. However, there are no clear signs of significant AMD pathology like large drusen, atrophy, neovascularization, or fluid.\n*   **Dry AMD (1):** The presence of some pigmentary changes could potentially be early signs of dry AMD, but the OCT doesn't show significant drusen or RPE atrophy.\n*   **Wet AMD (2):** There is no evidence of subretinal fluid, PED, or neovascularization on the OCT or CFP.\n*   **PCV (3):** There is no evidence of choroidal polyps on the OCT or CFP.\n\n**Probability Estimation:**\nGiven the subtle pigmentary changes on CFP and the lack of significant findings on OCT, the eye doesn't fit neatly into any category. However, it's most likely closer to normal or very early dry AMD.\n\n*   **Normal:** The lack of clear AMD signs makes this a possibility. Probability: 0.60\n*   **Dry AMD:** The pigmentary changes might indicate early dry AMD. Probability: 0.30\n*   **Wet AMD:** No signs are present. Probability: 0.05\n*   **PCV:** No signs are present. Probability: 0.05\n\n**Final Output:**\nNormal=0.60 dry=0.30 wet=0.05 PCV=0.05",
+"expected": [
+0.6,
+0.3,
+0.05,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retinal layers appear intact and well-organized. There is a clear foveal depression, no signs of intraretinal or subretinal fluid (which would suggest wet AMD), no drusen or pigment epithelial detachments (associated with dry AMD), and no polypoidal lesions (associated with PCV). The second image appears to be noise or an artifact and does not contain diagnostic information. Therefore, the classification is strongly indicative of a normal eye.\n\nNormal=1.0000 dry=0.0000 wet=0.0000 PCV=0.0000",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT images, the key features are:\n1.  **Pigment Epithelial Detachment (PED):** There is a large, dome-shaped elevation of the retinal pigment epithelium (RPE).\n2.  **Subretinal Fluid:** There is a distinct hyporeflective (dark) space between the neurosensory retina and the RPE/choroid complex, indicating fluid accumulation.\n3.  **Irregularity:** The surface of the PED appears somewhat irregular, and there is hyperreflective material on top of the RPE, which can represent fibrovascular tissue or debris.\n\n**Analysis:**\n*   **Normal (0):** The presence of fluid and a PED rules out a normal eye.\n*   **Dry AMD (1):** Dry AMD is characterized by drusen and geographic atrophy. While drusen can coalesce to form a PED, the presence of significant subretinal fluid is the hallmark of neovascular (wet) disease, not dry AMD.\n*   **PCV (3):** PCV is a subtype of neovascular AMD. It typically presents with a distinct \"double-layer sign\" on OCT (a hyperreflective line above the RPE) and often multiple polypoidal lesions. While the PED in this image is large, the classic double-layer sign is not clearly visible, and the morphology is more consistent with a standard fibrovascular PED.\n*   **Wet AMD (2):** The combination of a PED and subretinal fluid is the classic presentation of wet (neovascular) AMD. The irregularity suggests active neovascularization (likely Type 1 or Type 2 CNV). This is the most probable diagnosis given the exudative features.\n\nTherefore, the probability is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the fundus photograph:\n\n1.  **Analysis**: The image shows a large, confluent area of yellowish-white deposits in the macular region (temporal to the optic disc). These deposits appear to be **hard exudates** (lipid deposits) rather than soft drusen. Hard exudates are typically associated with vascular leakage.\n2.  **Differential Diagnosis**:\n    *   **Normal (0)**: Ruled out due to obvious pathology.\n    *   **Dry AMD (1)**: Characterized by drusen (soft or hard) and geographic atrophy. While there are deposits, the large, confluent, and somewhat \"greasy\" appearance of the exudates is more indicative of leakage than simple dry accumulation. However, advanced dry AMD can have hard exudates, but usually less extensive and confluent than this.\n    *   **Wet AMD (2)**: Characterized by choroidal neovascularization (CNV) leading to leakage of fluid and lipids. The presence of a large, dense cluster of hard exudates is a hallmark sign of exudative (wet) AMD. The pattern suggests chronic leakage from a CNV complex.\n    *   **PCV (3)**: Polypoidal Choroidal Vasculopathy often presents with subretinal hemorrhage and orange nodules. While it can cause exudation, the classic presentation here (large hard exudates without obvious hemorrhage or distinct orange polypoidal lesions) is more typical of standard wet AMD.\n3.  **Conclusion**: The dominant feature is the exudation, which points strongly to the neovascular (wet) form of AMD.\n\nNormal=0.00 dry=0.05 wet=0.90 PCV=0.05",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal images (CFP and OCT), let's analyze the features to classify the eye condition.\n\n**CFP Analysis:**\n*   The image shows a yellowish, irregular lesion in the macula, surrounded by a halo of hyperpigmentation.\n*   There is evidence of retinal pigment epithelium (RPE) atrophy and possibly some drusen, although the image quality makes it difficult to definitively identify small drusen.\n*   The lesion appears to be elevated and has a somewhat \"lumpy\" or \"bumpy\" appearance, which can be characteristic of certain types of AMD.\n*   There is no obvious sign of subretinal fluid or hemorrhage, which would be more typical of wet AMD.\n\n**OCT Analysis:**\n*   The OCT image shows a significant elevation of the RPE layer in the foveal region.\n*   There is a distinct, highly reflective layer beneath the RPE, which is characteristic of a choroidal neovascular membrane (CNVM).\n*   The elevation is associated with subretinal fluid (SRF) and possibly intraretinal fluid (IRF).\n*   The overall structure suggests a neovascular process originating from the choroid and lifting the RPE and neurosensory retina.\n\n**Classification:**\nThe presence of a CNVM, subretinal fluid, and RPE elevation on OCT, along with the corresponding lesion on CFP, strongly indicates wet (neovascular) age-related macular degeneration (AMD).\n\n**Probability Estimation:**\n*   **Normal (0):** The presence of a significant macular lesion and OCT findings rules out a normal eye. Probability ≈ 0.00\n*   **Dry AMD (1):** While dry AMD involves RPE changes and drusen, the OCT findings of a CNVM and subretinal fluid are not characteristic of dry AMD. Probability ≈ 0.05 (some features might overlap, but the key findings point elsewhere)\n*   **Wet AMD (2):** The OCT clearly shows a CNVM with associated fluid, which is the hallmark of wet AMD. The CFP findings are also consistent with a neovascular lesion. Probability ≈ 0.90\n*   **PCV (3):** Polypoidal choroidal vasculopathy typically presents with multiple, branching vascular structures beneath the RPE, often associated with a serosanguinous detachment. While there is fluid, the OCT image doesn't show the characteristic polypoidal vessels. Probability ≈ 0.05 (less likely than wet AMD, but some features like fluid can overlap)\n\n**Final Output:**\nNormal=0.00 dry=0.05 wet=0.90 PCV=0.05",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the analysis is as follows:\n\n1.  **Image Features**: The OCT scan shows a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). The space beneath the RPE is largely hyporeflective (dark), indicating fluid accumulation (serous detachment). The overlying neurosensory retina is elevated but relatively intact. There is some hyperreflective material on the surface of the RPE elevation, which could represent fibrin or exudate.\n2.  **Differential Diagnosis**:\n    *   **Normal (0)**: Ruled out due to the significant subretinal/sub-RPE fluid and elevation.\n    *   **Dry AMD (1)**: Typically presents with drusen (small bumps) or geographic atrophy (flat thinning). While this could be a large drusenoid pigment epithelial detachment (PED), the large, smooth, fluid-filled appearance is more characteristic of active exudative disease.\n    *   **Wet AMD (2)**: This category includes neovascular AMD (nAMD). The presence of subretinal fluid and a PED is a hallmark of wet AMD. The \"shaggy\" or hyperreflective texture on top of the PED is often seen in serous PEDs associated with nAMD.\n    *   **PCV (3)**: Polypoidal Choroidal Vasculopathy is a subtype of neovascular AMD. It is characterized by polypoidal lesions and often presents with a broad, flat, or irregular PED, sometimes with a \"double-layer sign\". While the morphology here (a large serous PED) is consistent with PCV, the specific features of polyps are not clearly visible in this single B-scan. However, PCV is a strong differential.\n3.  **Classification**: The image is a classic example of a serous Pigment Epithelial Detachment (PED) with subretinal fluid. This is most commonly associated with **Wet AMD** (specifically Type 1 neovascularization or occult CNV). While PCV is a possibility, Wet AMD is the broader and more statistically probable category for this general appearance without specific polyp identification. The hyperreflective material suggests active leakage/exudation. Therefore, the probability is heavily weighted towards Wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.8500 PCV=0.1500",
+"expected": [
+0.0,
+0.0,
+0.85,
+0.15
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Image Analysis:**\nThe color fundus photograph shows a relatively clear view of the macula. There are no obvious signs of drusen, pigmentary changes, retinal pigment epithelium (RPE) atrophy, or neovascularization (hemorrhages, exudates). The fovea appears relatively normal.\n\n**OCT Image Analysis:**\nThe OCT scan provides a cross-sectional view of the retina.\n- The retinal layers appear relatively well-defined and organized.\n- There is no evidence of subretinal fluid (SRF), which would indicate wet AMD.\n- There is no evidence of choroidal neovascularization (CNV) or polypoidal lesions, which would suggest wet AMD or PCV.\n- There are no significant signs of geographic atrophy or RPE changes characteristic of advanced dry AMD.\n- The foveal contour appears normal.\n\n**Classification:**\nGiven the absence of significant findings in both the CFP and OCT images, such as drusen, RPE changes, atrophy, SRF, or CNV, the most likely classification is normal.\n\n**Probability Estimation:**\n- Normal: The images show no clear signs of AMD or PCV. Probability = 0.95\n- Dry AMD: While early dry AMD might present with subtle drusen not easily visible, the OCT doesn't show typical features like RPE changes or atrophy. Probability = 0.04\n- Wet AMD: There is no evidence of SRF or CNV on OCT. Probability = 0.005\n- PCV: There are no polypoidal lesions visible on OCT. Probability = 0.005\n\n**Output:**\nNormal=0.95 dry=0.04 wet=0.005 PCV=0.005",
+"expected": [
+0.95,
+0.04,
+0.005,
+0.005
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Image Analysis:**\n*   The image shows the posterior pole of the eye.\n*   There are no obvious signs of drusen, pigmentary changes, or neovascularization typically associated with AMD.\n*   The macula appears relatively normal in color and structure.\n*   There are no signs suggestive of PCV (like branching vascular networks or polyps).\n\n**OCT Image Analysis:**\n*   The OCT scan shows a cross-section of the macula.\n*   The retinal layers appear well-defined and organized.\n*   There is no evidence of subretinal fluid, intraretinal fluid, choroidal neovascularization (CNV), or significant drusen deposits.\n*   The foveal pit appears normal.\n*   There is no evidence of polypoidal lesions in the choroid.\n\n**Conclusion:**\nBoth the CFP and OCT images show no significant abnormalities characteristic of AMD (dry or wet) or PCV. The macula appears structurally normal. Therefore, the most likely classification is Normal (no AMD).\n\n**Probability Estimation:**\n*   Normal: The images show no signs of AMD or PCV. Probability = 0.95\n*   Dry AMD: No drusen or RPE changes are visible. Probability = 0.03\n*   Wet AMD: No signs of CNV or fluid are present. Probability = 0.01\n*   PCV: No polypoidal lesions are seen. Probability = 0.01\n\n**Output:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the provided images:\n\n1.  **Color Fundus Photography (CFP):** The image shows a healthy optic disc with distinct margins and a normal cup-to-disc ratio. The retinal vasculature appears normal without signs of tortuosity, hemorrhage, or neovascularization. The macula region is uniform in color, showing no evidence of drusen (yellow deposits), pigmentary changes, geographic atrophy, or subretinal fluid/exudates.\n2.  **Optical Coherence Tomography (OCT):** The scan displays a well-preserved foveal contour with a normal depression. The retinal layers are clearly defined and intact. There is no evidence of intraretinal cysts (cystoid macular edema), subretinal fluid, pigment epithelial detachments (PED), or hyperreflective material indicative of choroidal neovascularization. The retinal pigment epithelium (RPE) band is continuous and smooth.\n\n**Conclusion:** Both imaging modalities indicate a healthy retina with no pathological features associated with Age-related Macular Degeneration (AMD) or Polypoidal Choroidal Vasculopathy (PCV).\n\nNormal=1.0000 dry=0.0000 wet=0.0000 PCV=0.0000",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows significant subretinal fluid (the large dark space under the retina) and intraretinal cysts (fluid pockets within the retinal layers). These are hallmark signs of active neovascularization (wet AMD). While PCV is a subtype of neovascular AMD, the classic presentation of large subretinal fluid and cystoid macular edema without obvious polypoidal structures or thick RPE detachment typically points to wet AMD. There is no evidence of dry AMD (drusen/atrophy) or a normal retina.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features in the color fundus photograph:\n\n1.  **Analysis**: The image shows a distinct, large, yellowish-white lesion in the superior macula (above the fovea). This lesion has the appearance of a **fibrotic scar** or disciform scar, which is the end-stage result of choroidal neovascularization (CNV). Additionally, there are scattered hard exudates and pigmentary changes in the macular region.\n2.  **Differentiation**:\n    *   **Normal (0)**: The presence of significant pathology rules this out.\n    *   **Dry AMD (1)**: While there are drusen and pigmentary changes consistent with dry AMD, the large, elevated, fibrotic plaque is characteristic of neovascular activity (wet AMD) that has progressed to scarring. Dry AMD typically presents with geographic atrophy (flat, depigmented areas) rather than this type of hyper-reflective fibrotic mass.\n    *   **Wet AMD (2)**: The fibrotic scar is a hallmark of treated or late-stage wet AMD. The presence of exudates also supports a history of leakage from neovascularization. This is the most likely classification for the underlying pathology.\n    *   **PCV (3)**: PCV often presents with subretinal hemorrhage and orange nodules. While it can lead to scarring, the classic presentation here (fibrotic plaque with exudates) is more typical of standard CNV associated with wet AMD.\n\nTherefore, the probability is highest for wet AMD due to the presence of the fibrotic scar.\n\nNormal=0.0000 dry=0.0500 wet=0.9000 PCV=0.0500",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows a distinct hyperreflective lesion in the subretinal space with associated overlying retinal distortion and a small cystic space (intraretinal fluid). This appearance is characteristic of choroidal neovascularization (CNV), which is the hallmark of wet (neovascular) age-related macular degeneration. The presence of subretinal fluid and the irregular elevation of the retinal pigment epithelium (RPE) strongly point towards the wet AMD category rather than dry AMD (which typically shows drusen or atrophy without significant fluid/exudation) or PCV (which often presents with distinct polypoidal structures, though they can overlap with wet AMD, the primary classification for this exudative pattern is wet AMD).\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows significant subretinal fluid, intraretinal cysts, and a hyperreflective lesion consistent with a pigment epithelial detachment (PED) and choroidal neovascularization (CNV). These features are characteristic of wet (neovascular) age-related macular degeneration. While PCV is a subtype of neovascular AMD, the classic presentation of large serous detachments and fluid without distinct polypoidal structures visible in this single B-scan strongly points to wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retina exhibits significant structural abnormalities. There is a large, hyperreflective elevation of the Retinal Pigment Epithelium (RPE) and the neurosensory retina, consistent with a Pigment Epithelial Detachment (PED) or subretinal fluid/hemorrhage. The normal foveal depression is obliterated, and there is marked disruption of the retinal layers. These features are characteristic of neovascular (wet) Age-related Macular Degeneration (AMD). The second image appears to be noise or an artifact and does not contribute to the diagnosis.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal imaging (CFP and OCT), let's analyze the features to classify the eye into one of the four categories: Normal, dry AMD, wet AMD, or PCV.\n\n**CFP Analysis:**\nThe CFP shows a relatively clear view of the macula. There are no obvious signs of drusen, pigmentary changes, or neovascularization typically associated with AMD. The fovea appears relatively normal. There are no signs suggestive of PCV like branching vascular networks or polypoidal lesions.\n\n**OCT Analysis:**\nThe OCT scan provides a cross-sectional view of the retina.\n- The retinal layers appear relatively intact and well-defined.\n- There is no evidence of subretinal fluid (SRF), which is characteristic of wet AMD.\n- There is no evidence of choroidal neovascularization (CNV) or polypoidal lesions, which would be indicative of wet AMD or PCV.\n- There are no significant signs of geographic atrophy or drusen, which are hallmarks of dry AMD.\n- The foveal pit appears normal.\n\n**Conclusion:**\nBased on both the CFP and OCT images, there are no clear signs of AMD (dry or wet) or PCV. The retinal structure appears relatively normal.\n\n**Probability Estimation:**\n- Normal: The images show no significant pathology, making this the most likely classification. Probability = 0.95\n- dry AMD: There are no visible drusen or atrophic changes. Probability = 0.03\n- wet AMD: There is no evidence of subretinal fluid or CNV. Probability = 0.01\n- PCV: There are no signs of polypoidal lesions or branching vascular networks. Probability = 0.01\n\n**Output:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the Optical Coherence Tomography (OCT) image provided:\n\n1.  **Analysis**: The image displays a large, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). The space beneath the RPE is largely hyporeflective (dark), which is characteristic of a serous pigment epithelial detachment (PED). The overlying neurosensory retina is draped over this elevation. There is no obvious hyperreflective material within the subretinal space or sub-RPE space that would strongly suggest the polypoidal lesions typical of PCV, nor is there the irregular, \"shaggy\" hyperreflectivity often seen in active wet AMD with fibrosis or hemorrhage. However, large serous PEDs are a hallmark of neovascular (wet) AMD (specifically Type 1 CNV). While dry AMD can present with drusen, they typically appear as smaller, discrete bumps rather than this large, smooth, dome-shaped detachment. Therefore, the morphology is most consistent with wet AMD.\n\n2.  **Classification**:\n    *   **Normal**: Highly unlikely due to the massive structural deformation.\n    *   **Dry AMD**: Unlikely. While drusen are present in dry AMD, this large serous PED is a sign of neovascularization.\n    *   **Wet AMD**: Most likely. The large serous PED is a classic presentation of neovascular AMD.\n    *   **PCV**: Less likely. PCV typically presents with a more irregular, lobulated, or \"bumpy\" appearance due to polyps, often with associated hemorrhage. This lesion is too smooth and uniform.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the fundus image:\n\n1.  **Image Analysis**: The image shows a color fundus photograph of the left eye. The optic disc is visible on the left with distinct margins. The most prominent feature is a large, yellowish-white, irregular lesion located in the macular region (center). This lesion appears to be a fibrotic scar or subretinal fibrosis. There are also scattered yellow deposits (drusen) visible in the surrounding retina.\n2.  **Differential Diagnosis**:\n    *   **Normal (0)**: The presence of significant pathology (macular lesion and drusen) rules out a normal eye.\n    *   **PCV (3)**: Polypoidal Choroidal Vasculopathy typically presents with orange nodules and subretinal hemorrhage. While it can lead to scarring, the primary presentation here is a large fibrotic plaque, which is more characteristic of the end-stage of wet AMD or advanced dry AMD. PCV is less likely to be the primary classification for a pure fibrotic scar without active polypoidal features.\n    *   **Wet AMD (2) vs. Dry AMD (1)**: The large, central, yellowish-white lesion is highly suggestive of a disciform scar. Disciform scarring is the end-stage result of neovascular (wet) AMD, where the choroidal neovascularization has leaked, bled, and eventually organized into a fibrous scar. While the active \"wet\" phase (hemorrhage/exudation) might have subsided, the presence of this scar is a hallmark sequela of wet AMD. In many classification schemes for retinal imaging datasets (like the one this prompt likely mimics), eyes with disciform scars are categorized under wet AMD because the underlying etiology is neovascularization, distinguishing them from the geographic atrophy seen in dry AMD. Geographic atrophy typically presents as a well-defined area of RPE depigmentation (darker) with visible large choroidal vessels, rather than a raised, yellowish fibrotic mass. Therefore, the probability for wet AMD is highest.\n\n3.  **Probability Estimation**:\n    *   **Wet AMD**: High probability due to the disciform scar.\n    *   **Dry AMD**: Moderate probability, as the scar could be interpreted as advanced atrophy, but the morphology favors wet sequelae.\n    *   **PCV**: Low probability.\n    *   **Normal**: Zero probability.\n\nNormal=0.0000 dry=0.1000 wet=0.8500 PCV=0.0500",
+"expected": [
+0.0,
+0.1,
+0.85,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Images:**\n*   The color fundus photographs show the posterior pole of the eye.\n*   There are no obvious signs of drusen, pigmentary changes, atrophy, or neovascularization (hemorrhage, exudates) typically associated with AMD.\n*   The optic disc and macula appear relatively normal in color and structure.\n*   There are no signs suggestive of PCV, such as branching vascular networks or polypoidal lesions.\n\n**OCT Images:**\n*   The OCT scans provide cross-sectional views of the retina and choroid.\n*   The foveal pit appears well-defined.\n*   The retinal layers (ILM, GCL, INL, ONL, photoreceptor layer, RPE) seem intact and organized.\n*   There is no evidence of subretinal fluid, intraretinal fluid, choroidal neovascularization (CNV), geographic atrophy, or drusen.\n*   The choroid appears normal in thickness and structure.\n\n**Conclusion:**\nBased on the absence of characteristic features of dry AMD (drusen, atrophy), wet AMD (CNV, fluid), or PCV (polypoidal lesions), the eye appears to be normal.\n\n**Probability Estimation:**\n*   Normal: The images show no signs of AMD or PCV. Probability = 1.00\n*   Dry AMD: No drusen or atrophy are visible. Probability = 0.00\n*   Wet AMD: No signs of CNV or fluid are present. Probability = 0.00\n*   PCV: No characteristic features of PCV are seen. Probability = 0.00\n\n**Output:**\nNormal=1.00 dry=0.00 wet=0.00 PCV=0.00",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the retina shows significant disruption of the retinal pigment epithelium (RPE) and photoreceptor layers, with hyperreflective material beneath the RPE and possible subretinal fluid or thickening. These features are characteristic of neovascular (wet) age-related macular degeneration (AMD), where abnormal blood vessels grow under the retina and leak fluid or blood. Dry AMD typically presents with drusen and atrophy without such active exudative changes. PCV is a subtype of wet AMD but often has distinct polypoidal lesions; while possible, the general appearance here is more consistent with typical wet AMD. Normal is ruled out due to clear pathology.\n\nThus, the probability distribution is:\n\nNormal=0.00 dry=0.00 wet=0.95 PCV=0.05",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the fundus image:\n\n1.  **Image Features**: The image displays a tessellated or tigroid fundus appearance, characterized by the visibility of the underlying large choroidal vessels due to hypopigmentation of the retinal pigment epithelium (RPE). This is a common finding in myopic eyes.\n2.  **Pathology Assessment**:\n    *   **Wet AMD (Category 2)**: There are no obvious signs of active neovascularization, such as subretinal hemorrhage, lipid exudation, or distinct subretinal fluid. The macula appears relatively flat without the typical \"wet\" features.\n    *   **PCV (Category 3)**: There are no visible polypoidal lesions (orange-red nodules) or distinct hemorrhagic detachments characteristic of PCV.\n    *   **Dry AMD (Category 1)**: While the tessellated background is prominent, there is a lack of distinct, focal drusen (yellow deposits) or geographic atrophy (well-defined areas of RPE loss) that would strongly classify this as dry AMD. The changes appear more related to the underlying myopic structure than specific AMD pathology.\n    *   **Normal (Category 0)**: The absence of definitive AMD lesions (drusen, hemorrhage, exudates) combined with the presence of a myopic fundus pattern (tessellation) suggests this eye is likely structurally normal regarding AMD, or perhaps has very early, non-specific changes. In classification tasks, a myopic fundus without specific AMD lesions is often categorized as Normal (or distinct from AMD).\n\n3.  **Probability Estimation**:\n    *   The image lacks the specific markers for wet AMD and PCV, making their probabilities low.\n    *   The distinction between \"Normal\" and \"Dry AMD\" can be subtle. However, the dominant feature is the myopic tessellation rather than drusen. Therefore, the probability leans towards Normal, but a small probability is assigned to Dry AMD to account for potential early atrophic changes or misclassification of the tessellated pattern.\n\nNormal=0.6500 dry=0.2500 wet=0.0500 PCV=0.0500",
+"expected": [
+0.65,
+0.25,
+0.05,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retina exhibits significant structural abnormalities. There is a marked disruption of the retinal pigment epithelium (RPE) and the presence of subretinal fluid or hyperreflective material, which is characteristic of neovascular activity. The foveal contour is distorted, and there appears to be a pigment epithelial detachment (PED) or subretinal hyperreflective material (SHRM). These features are strongly indicative of wet (neovascular) Age-related Macular Degeneration (AMD). There are no specific features like polyps to suggest PCV, and the pathology is far too advanced for dry AMD or a normal eye.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Image Analysis:**\n*   The image shows the posterior pole of the eye.\n*   There are no obvious signs of drusen, pigmentary changes, or neovascularization typically associated with AMD.\n*   The macula appears relatively normal in color and structure.\n*   There are no signs suggestive of PCV (like branching vascular networks or polyps).\n\n**OCT Image Analysis:**\n*   The OCT scan shows a cross-section of the macula.\n*   The retinal layers appear well-defined and organized.\n*   There is no evidence of subretinal fluid, intraretinal fluid, choroidal neovascularization (CNV), or significant drusen deposits.\n*   The foveal pit appears normal.\n*   The retinal pigment epithelium (RPE) appears intact.\n\n**Conclusion:**\nBoth the CFP and OCT images show no significant abnormalities characteristic of AMD (dry or wet) or PCV. The macula appears structurally normal. Therefore, the most likely classification is Normal (no AMD).\n\n**Probability Estimation:**\n*   Normal: The images show no signs of AMD or PCV. Probability = 0.95\n*   Dry AMD: No drusen or RPE changes are visible. Probability = 0.03\n*   Wet AMD: No signs of CNV or fluid are present. Probability = 0.01\n*   PCV: No characteristic features are seen. Probability = 0.01\n\n**Output:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the provided retinal image:\n\n1.  **Image Analysis**: The image is a color fundus photograph (CFP) of the left eye.\n    *   **Optic Disc**: The optic disc is visible on the left with distinct margins.\n    *   **Vessels**: The retinal vasculature appears relatively normal in caliber and tortuosity.\n    *   **Macula**: The macular region shows significant abnormalities. There is a mottled appearance of the retinal pigment epithelium (RPE), characterized by areas of hypopigmentation (atrophy) and hyperpigmentation (clumping). There are also scattered yellowish deposits consistent with drusen.\n    *   **Exudation/Hemorrhage**: There are no obvious signs of subretinal fluid, subretinal hemorrhage, or lipid exudates that would typically characterize wet AMD or PCV in a standard CFP. The changes are primarily degenerative and atrophic.\n\n2.  **Classification**:\n    *   **Normal (0)**: The presence of drusen and RPE changes rules out a normal eye.\n    *   **Wet AMD (2) / PCV (3)**: These conditions are characterized by neovascularization, leading to fluid, hemorrhage, or distinct polypoidal lesions. While early wet AMD can be subtle, the dominant features here are dry, atrophic changes. Without evidence of active leakage or hemorrhage, wet AMD is less likely than dry AMD.\n    *   **Dry AMD (1)**: The image displays classic signs of intermediate to advanced dry AMD, specifically geographic atrophy and extensive drusen. The mottled, \"tigroid\" appearance of the fundus is typical of RPE atrophy associated with dry AMD.\n\n3.  **Probability Estimation**:\n    *   The features strongly align with **dry AMD**.\n    *   There is a small possibility of misclassification due to image quality or subtle features not visible, but the evidence for dry AMD is overwhelming.\n    *   Therefore, the probability for dry AMD is high, while the others are low.\n\nNormal=0.0000 dry=0.9500 wet=0.0300 PCV=0.0200",
+"expected": [
+0.0,
+0.95,
+0.03,
+0.02
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Image Analysis:**\n*   The image shows the fundus of the eye.\n*   There are no obvious signs of drusen, pigmentary changes, geographic atrophy, or neovascularization (hemorrhage, exudates) typically associated with AMD.\n*   The optic disc and retinal vessels appear relatively normal.\n\n**OCT Image Analysis:**\n*   The OCT image shows a cross-section of the macula.\n*   The retinal layers appear well-defined and organized.\n*   There is no evidence of subretinal fluid, intraretinal fluid, choroidal neovascularization (CNV), or significant drusen deposits.\n*   The foveal pit appears normal.\n\n**Classification:**\n*   **Normal (0):** The absence of typical AMD features (drusen, atrophy, neovascularization) in both CFP and OCT suggests a normal fundus.\n*   **Dry AMD (1):** Dry AMD is characterized by drusen and/or pigmentary changes/atrophy. These are not clearly visible in the provided images.\n*   **Wet AMD (2):** Wet AMD involves CNV, leading to subretinal/intraretinal fluid, hemorrhages, or exudates. None of these signs are present.\n*   **PCV (3):** PCV is characterized by specific branching vascular patterns and often associated with subretinal fluid or hemorrhage, which are not seen here.\n\n**Conclusion:**\nBased on the absence of characteristic findings for dry AMD, wet AMD, or PCV in both the color fundus photograph and the OCT scan, the eye appears normal.\n\n**Probability Estimation:**\n*   Normal: The findings strongly support a normal eye. Probability = 0.95\n*   Dry AMD: While subtle early changes might be missed, the images do not show clear signs. Probability = 0.03\n*   Wet AMD: No signs of neovascularization or fluid. Probability = 0.01\n*   PCV: No characteristic vascular patterns or associated fluid. Probability = 0.01\n\n**Output:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the fundus photograph:\n\n1.  **Analysis**: The image shows the posterior pole of the retina. The optic disc appears healthy with distinct margins. The most significant findings are located in the macular region. There is a large, ill-defined area of retinal pigment epithelium (RPE) disturbance characterized by mottling, hypopigmentation (atrophy), and scattered yellowish deposits (drusen).\n2.  **Differentiation**:\n    *   **Normal**: The presence of significant macular pathology rules out a normal classification.\n    *   **Wet AMD (Neovascular)**: Wet AMD typically presents with subretinal fluid, hemorrhage, or distinct subretinal fibrosis/scarring. While there is some irregularity, there are no obvious signs of active exudation, hemorrhage, or a classic disciform scar. The appearance is more consistent with chronic changes.\n    *   **PCV**: PCV often presents with orange nodules or subretinal hemorrhage. These specific features are not clearly visible here.\n    *   **Dry AMD**: The image displays classic signs of intermediate to advanced dry AMD, specifically geographic atrophy (the pale, atrophic areas) and extensive drusenoid changes. The lack of fluid or hemorrhage strongly points towards the non-neovascular form.\n\nTherefore, the probability is heavily weighted towards dry AMD.\n\nNormal=0.0000 dry=0.9500 wet=0.0400 PCV=0.0100",
+"expected": [
+0.0,
+0.95,
+0.04,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal images (CFP and OCT), let's analyze the findings to classify the eye.\n\n**CFP Analysis:**\n*   The image shows a clear view of the macula and surrounding retina.\n*   There is a distinct area of geographic atrophy (GA) in the macula, characterized by a well-demarcated, pale, depigmented region. This is a hallmark feature of advanced dry AMD.\n*   There are also signs of drusen, which are yellow deposits under the retina, visible as small, yellowish spots scattered around the macula. Drusen are characteristic of early and intermediate dry AMD.\n*   There is no evidence of subretinal fluid, hemorrhage, or neovascularization (abnormal blood vessel growth) visible in the CFP.\n\n**OCT Analysis:**\n*   The OCT image confirms the presence of geographic atrophy, showing a thinned or absent retinal pigment epithelium (RPE) and photoreceptor layer in the corresponding area.\n*   The OCT also shows the presence of drusen, appearing as hyperreflective bumps under the RPE.\n*   There is no evidence of subretinal fluid, intraretinal fluid, or choroidal neovascularization (CNV) on the OCT.\n\n**Classification:**\nThe presence of geographic atrophy (GA) is a definitive sign of advanced dry AMD. The presence of drusen further supports the diagnosis of AMD. The absence of any signs of choroidal neovascularization (CNV), subretinal fluid, or hemorrhage rules out wet AMD (neovascular AMD). The features are not typical for PCV, which usually involves polypoidal lesions in the choroid. Therefore, the eye clearly exhibits features of dry AMD, specifically advanced dry AMD with GA.\n\n**Probability Estimation:**\n*   **Normal (0):** The presence of GA and drusen clearly indicates AMD, so the probability of being normal is very low.\n*   **Dry AMD (1):** The findings (GA, drusen, absence of CNV/fluid) are characteristic of dry AMD. The probability is very high.\n*   **Wet AMD (2):** The absence of CNV, fluid, or hemorrhage makes wet AMD highly unlikely.\n*   **PCV (3):** The features are not consistent with PCV.\n\n**Final Probabilities:**\nNormal=0.00 dry=0.95 wet=0.05 PCV=0.00",
+"expected": [
+0.0,
+0.95,
+0.05,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the key features are:\n1.  **RPE Irregularities:** There are multiple, distinct, hyperreflective elevations of the Retinal Pigment Epithelium (RPE) layer. These appear as \"bumps\" or undulations along the RPE band.\n2.  **Absence of Fluid:** There is no evidence of intraretinal cysts (fluid within the retina) or subretinal fluid (fluid under the retina), which are hallmarks of wet AMD.\n3.  **Absence of Polyps:** While there are elevations, they appear more like confluent drusen or drusenoid pigment epithelial detachments rather than the distinct, rounded, polypoidal structures typical of PCV.\n4.  **No Atrophy:** The RPE and outer retinal layers are largely intact, without the large, dark, hyporeflective areas characteristic of geographic atrophy (dry AMD).\n\nThese features—specifically the presence of drusen/RPE irregularities without fluid or atrophy—are characteristic of early to intermediate Age-Related Macular Degeneration (AMD), which falls under the non-neovascular category.\n\nNormal=0.0500 dry=0.8500 wet=0.0500 PCV=0.0500",
+"expected": [
+0.05,
+0.85,
+0.05,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the fundus photograph:\n1.  **Drusen:** There are numerous yellowish deposits scattered throughout the macula and paramacular regions. These appear to be a mix of small hard drusen and larger, somewhat confluent soft drusen. This is the hallmark of non-neovascular (dry) AMD.\n2.  **Pigmentary Changes:** There is mild mottling of the retinal pigment epithelium (RPE), particularly in the temporal macula, which is consistent with dry AMD progression.\n3.  **Absence of Wet AMD signs:** There are no obvious signs of subretinal hemorrhage, subretinal fluid, or lipid exudation that would suggest wet (neovascular) AMD.\n4.  **Absence of PCV signs:** There are no distinct reddish-orange nodules or polypoidal lesions visible, nor is there a classic pigment epithelial detachment (PED) with a double-layer sign often associated with PCV.\n\nTherefore, the image is most consistent with dry AMD.\n\nNormal=0.0000 dry=0.9500 wet=0.0300 PCV=0.0200",
+"expected": [
+0.0,
+0.95,
+0.03,
+0.02
+]
+},
+{
+"kind": "amd_text",
+"raw": "The image shows a color fundus photograph (CFP) of the retina. The key features to assess for AMD classification are drusen, pigmentary changes, atrophy, and signs of choroidal neovascularization (CNV) like leakage or hemorrhage.\n\nObservations from the image:\n- The optic disc appears relatively normal.\n- The macula shows some subtle changes. There are areas of slightly increased pigmentation and possibly some subtle thinning or atrophy, although it's not very pronounced.\n- There are no obvious signs of large drusen, significant RPE atrophy, or active CNV (like hemorrhage, exudates, or fluid).\n- The retinal vessels appear relatively normal.\n\nBased on these observations:\n- **Normal (0):** While there might be some subtle changes, the overall appearance doesn't scream \"normal\" without any pathology.\n- **Dry AMD (1):** The subtle pigmentary changes and possible mild atrophy could be consistent with early or intermediate dry AMD. The absence of large drusen makes it less likely to be advanced dry AMD, but early stages can have subtle findings.\n- **Wet AMD (2):** There are no clear signs of CNV, such as subretinal fluid, hemorrhage, or exudates.\n- **PCV (3):** There are no obvious signs of polypoidal lesions.\n\nComparing the possibilities:\nThe image shows some subtle changes in the macula that are not typical of a completely normal eye. These changes (pigmentary alterations, possible mild atrophy) are more suggestive of early dry AMD than wet AMD or PCV, as there are no signs of neovascularization or polyps. The changes are not dramatic enough to definitively rule out normal, but they lean towards some degree of early AMD pathology.\n\nLet's estimate the probabilities:\n- **Normal (0):** There are subtle changes, so it's unlikely to be perfectly normal. Probability might be low, perhaps around 0.10-0.20.\n- **Dry AMD (1):** The subtle pigmentary changes and possible mild atrophy fit well with early/intermediate dry AMD. This seems like the most likely diagnosis based on the image. Probability might be high, perhaps around 0.60-0.70.\n- **Wet AMD (2):** No signs of CNV. Probability is very low, perhaps around 0.05-0.10.\n- **PCV (3):** No signs of polyps. Probability is very low, perhaps around 0.05-0.10.\n\nLet's refine the probabilities to sum to 1.00:\n- Normal = 0.15\n- Dry = 0.65\n- Wet = 0.10\n- PCV = 0.10\n\nThis distribution reflects the subtle changes seen, making early dry AMD the most probable diagnosis, while acknowledging the possibility of a normal variant or very early changes.\n\nNormal=0.15 dry=0.65 wet=0.10 PCV=0.10",
+"expected": [
+0.15,
+0.65,
+0.1,
+0.1
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows a large, elevated subretinal lesion with significant hyperreflectivity and disruption of the retinal pigment epithelium (RPE) and photoreceptor layers. There are also intraretinal cystic spaces (cystoid macular edema) and subretinal fluid. These features are characteristic of active neovascularization, specifically Choroidal Neovascularization (CNV), which is the hallmark of wet Age-related Macular Degeneration (AMD). While PCV is a subtype of neovascular AMD, the classic presentation of a large, irregular, highly reflective sub-RPE/choroidal mass with overlying fluid is most strongly associated with wet AMD in general classification tasks unless specific polypoidal features (like distinct polypoidal dilations) are clearly identifiable, which is difficult here. However, given the options, wet AMD is the most appropriate broad category for this exudative, neovascular presentation.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows a distinct hyperreflective lesion located beneath the retinal pigment epithelium (RPE) and neurosensory retina, causing a significant elevation (bump) in the retinal layers. This appearance is characteristic of a pigment epithelial detachment (PED) or subretinal fluid associated with choroidal neovascularization (CNV). These features are hallmarks of wet (neovascular) age-related macular degeneration. There is no evidence of the drusen or geographic atrophy typical of dry AMD, nor the specific polypoidal structures of PCV (though PCV can look similar, wet AMD is the broader and more likely classification for this general CNV presentation without specific polyp identification). The second image is noise and provides no diagnostic information.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the OCT image provided:\n\n1.  **Analysis**: The image shows a distinct, hyperreflective lesion located in the subretinal space, directly beneath the neurosensory retina. This lesion appears to be a pigment epithelial detachment (PED) or a subretinal hyperreflective material (SHRM). There is associated subretinal fluid (hyporeflective space) and intraretinal cystic changes (cystoid macular edema).\n2.  **Differentiation**:\n    *   **Normal (0)**: Ruled out due to the presence of fluid and structural abnormalities.\n    *   **Dry AMD (1)**: Typically characterized by drusen (deposits under the RPE) and geographic atrophy. While drusen might be present, the significant fluid and the elevated lesion suggest active disease rather than just atrophy.\n    *   **PCV (3)**: Polypoidal Choroidal Vasculopathy often presents with a double-layer sign or specific polypoidal structures. While possible, the morphology here is more consistent with a standard exudative process.\n    *   **Wet AMD (2)**: The combination of subretinal fluid, intraretinal fluid, and a hyperreflective subretinal lesion (likely a fibrovascular PED or CNV membrane) is the hallmark of neovascular (wet) AMD. The \"bump\" is likely the CNV complex.\n\nTherefore, the probability is highest for wet AMD.\n\nNormal=0.0000 dry=0.0500 wet=0.9000 PCV=0.0500",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the analysis is as follows:\n\n1.  **Image Analysis**: The OCT scan shows a distinct elevation of the Retinal Pigment Epithelium (RPE) in the central macula. This elevation is caused by a hyperreflective, irregular mass located beneath the RPE (sub-RPE).\n2.  **Pathology Identification**: This appearance is characteristic of a **Pigmented Epithelial Detachment (PED)**. The internal reflectivity of the PED is heterogeneous (mixed), which is a key differentiator.\n    *   **Dry AMD (Category 1)**: Typically presents with drusen (small, discrete deposits) or geographic atrophy (flat areas of RPE loss). While a PED can be associated with dry AMD, the presence of a large, irregular, hyperreflective sub-RPE mass strongly suggests neovascular activity.\n    *   **Wet AMD (Category 2)**: Neovascular AMD (nAMD) frequently presents with PEDs. The irregular, hyperreflective nature of the material within the PED is highly suggestive of a **Fibrovascular PED**, which is a hallmark of wet AMD. The overlying retinal layers are distorted and elevated, consistent with the mass effect of the lesion.\n    *   **PCV (Category 3)**: Polypoidal Choroidal Vasculopathy also presents with PEDs. However, classic PCV PEDs often have a more uniform, dome-shaped, and hyporeflective (dark) interior (serous fluid) or a specific \"double-layer sign\". While PCV is a differential, the irregular, bright (hyperreflective) texture seen here is more statistically and visually aligned with the fibrovascular tissue of typical wet AMD.\n3.  **Probability Estimation**:\n    *   **Wet AMD**: The features (irregular, hyperreflective sub-RPE mass/PED) are the strongest match for wet AMD. Probability is high.\n    *   **PCV**: A plausible differential diagnosis, but less likely given the specific reflectivity texture. Probability is moderate.\n    *   **Dry AMD**: Unlikely to present with such a large, active-appearing sub-RPE mass without other atrophic features. Probability is low.\n    *   **Normal**: Clearly abnormal. Probability is zero.\n\nNormal=0.0000 dry=0.0500 wet=0.8500 PCV=0.1000",
+"expected": [
+0.0,
+0.05,
+0.85,
+0.1
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT images, the analysis is as follows:\n\n1.  **Image Analysis**: The OCT scans show significant disruption of the retinal architecture. Specifically, there are multiple hyperreflective elevations of the Retinal Pigment Epithelium (RPE), consistent with Pigment Epithelial Detachments (PEDs).\n2.  **Fluid Presence**: There is clear evidence of subretinal fluid (hyporeflective space between the neurosensory retina and the RPE) and likely intraretinal fluid (cystic spaces within the retina). The presence of fluid indicates an active, exudative process.\n3.  **Differentiation**:\n    *   **Normal (0)**: Ruled out due to obvious pathology.\n    *   **Dry AMD (1)**: Ruled out because dry AMD is characterized by drusen and atrophy without fluid. The presence of subretinal/intraretinal fluid signifies neovascularization.\n    *   **PCV (3)**: PCV is a subtype of neovascular AMD often characterized by large, lobulated, \"bumpy\" PEDs. While the image shows irregularities, the classic distinct polypoidal structures are not clearly resolved, and the presentation is more typical of standard CNV.\n    *   **Wet AMD (2)**: The combination of PEDs and subretinal fluid is the hallmark of wet (neovascular) AMD. The irregular, somewhat jagged appearance of the RPE elevation is highly suggestive of Choroidal Neovascularization (CNV).\n\nTherefore, the probability is highest for wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the provided retinal imaging:\n\n1.  **Image Quality**: The first image is a clear Color Fundus Photography (CFP) of a retina. The second image is random noise and contains no diagnostic information.\n2.  **Pathology Assessment**:\n    *   **Optic Disc**: The optic disc (left side) appears healthy with well-defined margins and a normal cup-to-disc ratio.\n    *   **Vessels**: The retinal vasculature shows normal caliber and tortuosity. There are no signs of neovascularization (abnormal new blood vessels), hemorrhages, or hard exudates.\n    *   **Macula**: The macular region (center) appears uniform in color and texture. There are no visible drusen (yellow deposits), geographic atrophy (patches of missing pigment), or subretinal fluid indicative of wet AMD or PCV.\n3.  **Classification**: The absence of any pathological features such as drusen, hemorrhage, exudates, or neovascular membranes indicates a healthy, normal retina.\n\nTherefore, the probability distribution is heavily weighted towards the \"Normal\" category.\n\nNormal=1.0000 dry=0.0000 wet=0.0000 PCV=0.0000",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the provided retinal imaging:\n\n1.  **Color Fundus Photography (CFP):** The image shows a relatively healthy-appearing retina. The optic disc is distinct with clear margins. The macula appears flat without obvious hemorrhages, hard exudates, or large drusen. There are no signs of active neovascularization (wet AMD) or polypoidal lesions (PCV). The overall appearance is consistent with a normal eye or very early, minimal changes not yet visible as pathology.\n\n2.  **Optical Coherence Tomography (OCT):** The three B-scans show a well-preserved foveal contour. The retinal layers are distinct and intact.\n    *   There is no subretinal fluid or intraretinal cysts (ruling out wet AMD).\n    *   There are no hyperreflective polypoidal structures or significant pigment epithelial detachments (ruling out PCV).\n    *   The Retinal Pigment Epithelium (RPE) band is continuous and smooth, without significant undulations or atrophy characteristic of dry AMD.\n    *   The vitreous cavity is clear (no posterior vitreous detachment traction visible).\n\n**Conclusion:** The imaging findings are consistent with a healthy, normal retina. There is no evidence of Age-related Macular Degeneration (AMD) in any form.\n\nNormal=1.0000 dry=0.0000 wet=0.0000 PCV=0.0000",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the Optical Coherence Tomography (OCT) image provided:\n\n1.  **Analysis**: The image displays a significant elevation of the Retinal Pigment Epithelium (RPE), consistent with a Pigment Epithelial Detachment (PED). Crucially, there is a distinct hyporeflective (dark) space between the neurosensory retina and the RPE, indicating the presence of subretinal fluid (SRF). Additionally, there appears to be subretinal hyperreflective material (SHRM) or a fibrovascular component associated with the PED.\n2.  **Classification Logic**:\n    *   **Normal (0)**: Ruled out due to obvious pathology.\n    *   **Dry AMD (1)**: Typically characterized by drusen and geographic atrophy. While drusen may be present, the presence of subretinal fluid and PEDs indicates the neovascular (wet) form of the disease.\n    *   **Wet AMD (2)**: The presence of subretinal fluid and a PED with associated hyperreflective material is the hallmark of neovascular AMD (specifically, likely Choroidal Neovascularization or CNV). This is the most standard classification for this appearance.\n    *   **PCV (3)**: Polypoidal Choroidal Vasculopathy often presents with a double-layer sign or specific polypoidal structures. While PCV is a subtype of neovascular AMD, the generic \"wet AMD\" label is the primary category for exudative changes unless specific polypoidal features are clearly distinct. However, in many classification schemas, this appearance is broadly categorized under wet AMD. Given the choice, the exudative nature points strongly to wet AMD.\n\nTherefore, the probability is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retinal layers appear intact and well-organized. The foveal depression is preserved, and there are no signs of fluid accumulation (intraretinal or subretinal), drusen, or neovascular membranes. The retinal pigment epithelium (RPE) band is continuous and regular. These features are characteristic of a healthy, normal retina.\n\nNormal=1.0000 dry=0.0000 wet=0.0000 PCV=0.0000",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Image Analysis:**\nThe color fundus photograph shows a relatively clear macula. There are no obvious signs of drusen, pigmentary changes, atrophy, or neovascularization typically associated with AMD. There are no signs suggestive of PCV like branching vascular networks or polyps.\n\n**OCT Image Analysis:**\nThe OCT scan shows a clear view of the retinal layers. The foveal pit appears normal, and the photoreceptor layers are intact. There is no evidence of subretinal fluid, intraretinal fluid, choroidal neovascularization, drusen, geographic atrophy, or other abnormalities characteristic of AMD or PCV. The retinal layers appear well-defined and organized.\n\n**Conclusion:**\nBoth the CFP and OCT images show no significant abnormalities suggestive of AMD (dry or wet) or PCV. The macula appears normal.\n\n**Probability Estimation:**\n*   **Normal (0):** The images show no signs of AMD or PCV, indicating a normal appearance. Probability = 1.00\n*   **Dry AMD (1):** No drusen or atrophy are visible. Probability = 0.00\n*   **Wet AMD (2):** No signs of choroidal neovascularization or fluid leakage are present. Probability = 0.00\n*   **PCV (3):** No characteristic features of PCV are observed. Probability = 0.00\n\n**Output:**\nNormal=1.00 dry=0.00 wet=0.00 PCV=0.00",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images:\n\n*   **CFP (Color Fundus Photography):** The image shows a relatively clear view of the macula. There are some subtle changes in pigmentation and possibly some mild drusen, but no obvious signs of significant atrophy, neovascularization (leakage, hemorrhage), or polypoidal lesions. The fovea appears relatively normal.\n*   **OCT (Optical Coherence Tomography):** The OCT scan shows the retinal layers. The image quality is somewhat degraded, but it appears to show a relatively normal foveal contour and retinal pigment epithelium (RPE). There is no clear evidence of subretinal fluid, choroidal neovascularization (CNV), geographic atrophy, or polypoidal lesions.\n\n**Analysis:**\n\n*   **Normal (0):** The images do not show definitive signs of AMD (dry or wet) or PCV. However, subtle changes might be present that are not easily classified as normal.\n*   **Dry AMD (1):** There might be subtle signs suggestive of early dry AMD (like mild drusen or pigmentary changes), but the images are not clear enough to confidently classify it as dry AMD, especially without a clear view of drusen or atrophy.\n*   **Wet AMD (2):** There are no obvious signs of subretinal fluid, hemorrhage, or CNV on either the CFP or OCT.\n*   **PCV (3):** There are no characteristic polypoidal lesions visible on the CFP or OCT.\n\n**Conclusion:**\n\nGiven the lack of clear, definitive signs of any specific pathology, and the somewhat degraded image quality, it's difficult to make a strong classification. However, the absence of obvious wet AMD or PCV features makes those categories less likely. The possibility of early or mild dry AMD exists, but it's not strongly supported by the images. Therefore, the most probable classification, acknowledging the limitations, leans towards either normal or very early/mild dry AMD.\n\nLet's assign probabilities based on this assessment:\n\n*   **Normal:** There are no clear signs of pathology, making this a plausible option.\n*   **Dry AMD:** Subtle changes might be present, but not definitive.\n*   **Wet AMD:** No clear signs.\n*   **PCV:** No clear signs.\n\nGiven the ambiguity, let's assign probabilities reflecting this uncertainty. The images are not entirely normal, but also don't strongly suggest advanced dry AMD, wet AMD, or PCV.\n\nNormal=0.50 dry=0.40 wet=0.05 PCV=0.05",
+"expected": [
+0.5,
+0.4,
+0.05,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows significant pathology consistent with neovascular age-related macular degeneration (wet AMD). Key features include:\n1.  **Subretinal Fluid:** There is a large, dome-shaped elevation of the neurosensory retina, indicating fluid accumulation.\n2.  **Intraretinal Fluid:** Cystic spaces are visible within the retinal layers.\n3.  **Hyperreflective Material:** There is a distinct hyperreflective lesion beneath the retina (subretinal) and likely involving the RPE (sub-RPE), which corresponds to a choroidal neovascular membrane (CNVM) and associated fibrosis or hemorrhage.\n4.  **Disruption:** The normal foveal contour is lost, and the retinal pigment epithelium (RPE) band is irregular and elevated.\n\nThese findings are characteristic of wet AMD. While PCV is a subtype of neovascular AMD, the classic presentation of a large subretinal fluid pocket with a CNVM is most strongly associated with the general \"wet AMD\" category in this classification scheme. Dry AMD would show drusen or atrophy without fluid, and Normal would show a healthy foveal depression.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the key features are:\n1.  **Subretinal Fluid:** There is a distinct, hyporeflective space between the neurosensory retina and the retinal pigment epithelium (RPE), indicating fluid accumulation.\n2.  **RPE Irregularity:** The RPE band is elevated and irregular, suggesting the presence of a pigment epithelial detachment (PED) or sub-RPE material.\n3.  **Hyperreflective Foci:** There are hyperreflective spots within the subretinal fluid and on the surface of the RPE, which likely represent fibrin or exudates.\n\nThese findings are characteristic of **wet AMD (neovascular AMD)**. The presence of subretinal fluid and exudation rules out \"Normal\" and \"dry AMD\" (which typically shows drusen and atrophy without significant fluid). While PCV is a subtype of neovascular AMD, the classic presentation of a serous PED with subretinal fluid is most strongly associated with wet AMD in general classification tasks unless specific polypoidal structures are clearly visible (which is difficult to confirm definitively on a single B-scan without angiography). Therefore, the probability is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image:\n\n1.  **Image Analysis**: The OCT scan shows a cross-section of the macula. The foveal depression is clearly visible and well-preserved. The retinal layers are distinct and stratified normally. There is no evidence of intraretinal fluid (cystoid macular edema), subretinal fluid, or pigment epithelial detachments (PEDs). The Retinal Pigment Epithelium (RPE) band appears continuous and regular, without significant drusen or atrophy.\n2.  **Category Evaluation**:\n    *   **Wet AMD (2)**: Ruled out due to the absence of fluid or neovascular membranes.\n    *   **PCV (3)**: Ruled out due to the absence of characteristic polypoidal lesions or PEDs.\n    *   **Dry AMD (1)**: While early dry AMD can look subtle, this scan shows a very clean, healthy foveal contour without the distinct drusenoid elevations or RPE irregularities typically required for a classification of dry AMD in a diagnostic context.\n    *   **Normal (0)**: The structural integrity of the retina and the absence of pathological features strongly support a classification of normal.\n\nTherefore, the probability is heavily weighted towards Normal.\n\nNormal=0.9500 dry=0.0300 wet=0.0100 PCV=0.0100",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the color fundus photograph:\n\n1.  **Analysis**: The image displays a large, confluent area of yellowish-white subretinal deposits (hard exudates) in the macular region. There is also evidence of subretinal hemorrhage (the reddish-orange patch to the right of the center) and likely subretinal fluid. The presence of hard exudates indicates chronic leakage from abnormal vessels, and the hemorrhage indicates active neovascularization.\n2.  **Classification**:\n    *   **Normal (0)**: Incorrect. The pathology is severe.\n    *   **Dry AMD (1)**: Incorrect. While there are drusen-like deposits, the presence of hemorrhage and extensive exudates signifies the wet (neovascular) form.\n    *   **Wet AMD (2)**: This is the most likely diagnosis. The pattern of subretinal hemorrhage and extensive lipid exudation is characteristic of Choroidal Neovascularization (CNV) associated with wet AMD.\n    *   **PCV (3)**: PCV is a subtype of neovascular AMD. While it can present similarly, the classic \"polypoidal\" lesions are not distinctly visible here, and the extensive exudation is very typical of standard wet AMD (often associated with CNV). However, distinguishing wet AMD from PCV on a single CFP without angiography is difficult. In general classification tasks, this presentation is most strongly associated with the \"wet AMD\" category unless specific polypoidal features are highlighted. Given the options, wet AMD is the primary category for neovascular disease with these features.\n\nTherefore, the probability is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the provided images:\n\n1.  **Color Fundus Photography (CFP):** The image shows a distinct, irregular yellowish-white lesion in the macular region, inferior to the fovea. This appearance is characteristic of subretinal fibrosis or a disciform scar, which is a late-stage complication of neovascular (wet) Age-related Macular Degeneration (AMD). There are also signs of pigmentary changes. It does not look like a normal retina, nor does it show the classic drusen of dry AMD without neovascularization. While Polypoidal Choroidal Vasculopathy (PCV) can present with similar scarring, the primary pathology here is the exudative/neovascular process.\n\n2.  **Optical Coherence Tomography (OCT):** The scan reveals a significant disruption of the retinal architecture. There is a hyperreflective, dome-shaped elevation of the Retinal Pigment Epithelium (RPE) and overlying retina. This corresponds to the lesion seen on the CFP. The presence of this subretinal hyperreflective material (SHRM) and the distortion of the retinal layers are hallmarks of the fibrotic stage of wet AMD. There is no evidence of the distinct polypoidal structures or the specific \"double-layer sign\" typically used to diagnose PCV, although PCV is a subtype of neovascular AMD. The morphology is most consistent with a fibrotic scar resulting from wet AMD.\n\nTherefore, the probability is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "The image shows a color fundus photograph (CFP) of the retina. The key features to look for in classifying AMD are drusen, pigmentary changes, atrophy, and signs of choroidal neovascularization (CNV) like leakage or hemorrhage.\n\nIn this image:\n- The optic disc appears normal.\n- The retinal vessels appear relatively normal, although there might be some mild attenuation.\n- There are no obvious signs of subretinal fluid, hemorrhage, or exudates, which would suggest wet AMD.\n- There are no obvious signs of polypoidal lesions, which would suggest PCV.\n- There are some areas of subtle pigmentary changes and possibly some small, indistinct drusen, particularly in the macula. However, these are not prominent or clearly indicative of advanced dry AMD or geographic atrophy.\n\nBased on these observations:\n- The eye does not appear completely normal (0), as there might be subtle early changes.\n- The eye does not show clear signs of wet AMD (2) or PCV (3).\n- The eye might show subtle signs consistent with early or intermediate dry AMD (1), but the changes are not very pronounced.\n\nGiven the subtle nature of the findings, it's difficult to definitively classify. However, the absence of clear signs of wet AMD or PCV, and the lack of obvious significant drusen or atrophy, makes \"Normal\" a plausible category, perhaps representing an eye with very early or minimal changes. If we consider the possibility of subtle early drusen or pigmentary changes, it could lean towards dry AMD, but the evidence is weak.\n\nLet's estimate the probabilities:\n- Normal (0): The eye could be considered normal if the subtle changes are deemed insignificant or within normal variation. Probability ~0.50\n- Dry AMD (1): The subtle changes could represent early dry AMD. Probability ~0.40\n- Wet AMD (2): No clear signs of leakage or hemorrhage. Probability ~0.05\n- PCV (3): No obvious polypoidal lesions. Probability ~0.05\n\nThe probabilities should sum to 1.00. Let's adjust slightly to reflect the uncertainty. The image is relatively unremarkable. It's hard to confidently say it's anything other than normal or very early dry AMD. Let's increase the probability for Normal and decrease for Dry AMD slightly.\n\nNormal=0.60 dry=0.30 wet=0.05 PCV=0.05\n\nLet's re-evaluate. The image quality isn't perfect, but there are some subtle changes in the macular region. It's hard to say if these are just artifacts or early signs. If we assume they are early signs, it leans towards dry AMD. If we assume they are artifacts or normal variation, it leans towards normal. Let's try another distribution:\n\nNormal=0.50 dry=0.40 wet=0.05 PCV=0.05\n\nLet's consider the possibility that the subtle changes are indeed early drusen or pigmentary changes. In that case, classifying it as dry AMD seems reasonable.\n\nNormal=0.40 dry=0.50 wet=0.05 PCV=0.05\n\nLet's try to be more conservative about calling it dry AMD. The changes are very subtle.\n\nNormal=0.60 dry=0.30 wet=0.05 PCV=0.05\n\nLet's try another perspective. Is it possible these subtle changes are early signs of dry AMD? Yes. Is it possible they are normal variation? Yes. Is it possible it's wet AMD or PCV? Unlikely based on the image. So the probability is mainly split between Normal and Dry AMD.\n\nNormal=0.55 dry=0.35 wet=0.05 PCV=0.05\n\nLet's try one more adjustment. Maybe the subtle changes are more indicative of early dry AMD than initially thought.\n\nNormal=0.45 dry=0.45 wet=0.05 PCV=0.05\n\nLet's stick with the previous one:\nNormal=0.60 dry=0.30 wet=0.05 PCV=0.05\n\nFinal check: 60 + 30 + 5 + 5 = 100.\n\nNormal=0.60 dry=0.30 wet=0.05 PCV=0.05",
+"expected": [
+0.6,
+0.3,
+0.05,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal imaging (CFP and OCT), let's analyze the features to classify the eye into one of the four categories: Normal, dry AMD, wet AMD, or PCV.\n\n**CFP Analysis:**\nThe CFP shows a relatively clear view of the macula. There are no obvious signs of drusen, pigmentary changes, or neovascularization typically associated with AMD. The fovea appears relatively normal. There are no signs suggestive of PCV like branching vascular networks or polypoidal lesions.\n\n**OCT Analysis:**\nThe OCT image shows the cross-section of the retina. The retinal layers appear relatively intact and well-defined. There is no evidence of subretinal fluid, intraretinal fluid, choroidal neovascularization (CNV), or significant drusen deposits. The foveal pit seems normal.\n\n**Classification:**\n*   **Normal (0):** The absence of significant findings like drusen, pigmentary changes, fluid, or neovascularization in both CFP and OCT suggests a normal macula.\n*   **dry AMD (1):** Dry AMD is characterized by drusen and/or retinal pigment epithelium (RPE) changes. These are not clearly visible in the provided images.\n*   **wet AMD (2):** Wet AMD involves CNV, leading to subretinal or intraretinal fluid, retinal thickening, or hemorrhage. None of these features are apparent.\n*   **PCV (3):** PCV is characterized by specific branching vascular networks and polypoidal lesions, which are not seen.\n\n**Conclusion:**\nBased on the analysis of both CFP and OCT images, the eye appears to have no significant abnormalities characteristic of AMD (dry or wet) or PCV. Therefore, the most likely classification is Normal.\n\n**Probability Estimation:**\n*   Normal: The images show no clear signs of pathology. Probability = 0.95\n*   dry AMD: While subtle changes might be missed, there are no obvious drusen or RPE changes. Probability = 0.03\n*   wet AMD: No signs of fluid, CNV, or hemorrhage. Probability = 0.01\n*   PCV: No characteristic features of PCV. Probability = 0.01\n\n**Output:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retina exhibits significant structural abnormalities. There is a large, irregular elevation of the Retinal Pigment Epithelium (RPE) and the neurosensory retina, consistent with a pigment epithelial detachment (PED) or subretinal fluid. The normal foveal depression is absent, and the retinal layers are distorted and thickened. These features—specifically the presence of subretinal fluid and RPE elevation—are hallmark signs of neovascular (wet) Age-related Macular Degeneration (AMD). Dry AMD typically presents with drusen and atrophy without significant fluid or large PEDs, while PCV often presents with distinct polypoidal lesions which are less clearly defined here compared to the general exudative appearance. Normal eyes would show smooth, undisturbed retinal layers.\n\nTherefore, the probability distribution strongly favors wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT images, the retina shows significant structural abnormalities. There is a large, elevated lesion in the subretinal space with hyperreflective material, consistent with a pigment epithelial detachment (PED) or subretinal fibrosis. Crucially, there are multiple hyporeflective cystic spaces within the neurosensory retina (intraretinal fluid) and likely subretinal fluid. These features—specifically the presence of fluid (exudation) and neovascular membranes—are characteristic of wet (neovascular) Age-related Macular Degeneration (AMD). Dry AMD typically presents with drusen and atrophy without fluid, and PCV is a specific subtype of wet AMD often characterized by polypoidal lesions, but the general classification for active exudative disease is wet AMD. The probability for wet AMD is highest.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the provided retinal imaging:\n\n1.  **Color Fundus Photography (CFP):** The image displays a classic \"bull's eye\" pattern of hard exudates (yellowish deposits) arranged in a circinate ring around the fovea. This is a hallmark sign of chronic vascular leakage, typically associated with conditions like Coats' disease or advanced neovascular age-related macular degeneration (AMD). The presence of such extensive exudation strongly rules out \"Normal\" and \"dry AMD\" (which is characterized by drusen and atrophy, not massive exudation).\n\n2.  **Optical Coherence Tomography (OCT):** The cross-sectional scans reveal a significant subretinal hyperreflective mass (SRM) located beneath the neurosensory retina. This mass is causing elevation of the retinal layers and is associated with subretinal fluid. The presence of a subretinal mass and fluid indicates active neovascularization (wet AMD).\n\n3.  **Differentiation between Wet AMD and PCV:** While both conditions can present with subretinal fluid and exudates, the specific morphology of the lesion is key. PCV is characterized by polypoidal lesions (often appearing as distinct, rounded, hyperreflective nodules) and a branching vascular network. The OCT here shows a more diffuse, irregular subretinal hyperreflective material consistent with a Type 1 or Type 2 choroidal neovascularization (CNV) membrane, which is the definition of wet AMD. The \"bull's eye\" exudate pattern is also highly characteristic of the chronic leakage seen in wet AMD (or Coats', but given the AMD classification options, wet is the fit). There are no distinct polypoidal structures visible in the OCT to suggest PCV.\n\nTherefore, the probability is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the analysis is as follows:\n\n1.  **Image Features**: The OCT scan shows a significant elevation of the Retinal Pigment Epithelium (RPE) and the overlying neurosensory retina. This is a large, dome-shaped elevation.\n2.  **Internal Reflectivity**: The material within the elevation is highly hyperreflective (bright). This is characteristic of a Fibrovascular Pigment Epithelial Detachment (PED) or a large, organized subretinal deposit.\n3.  **Shadowing**: There is distinct posterior shadowing (dark vertical streaks) beneath the lesion. This occurs because the dense, hyperreflective material blocks the OCT signal from penetrating deeper into the choroid.\n4.  **Differentiation**:\n    *   **Normal (0)**: Ruled out due to the obvious pathology.\n    *   **Dry AMD (1)**: While drusen are present, the large, elevated, and shadowing nature of the lesion indicates active neovascularization or significant fibrosis associated with wet AMD, rather than simple atrophic dry AMD.\n    *   **PCV (3)**: PCV typically presents with distinct \"polypoidal\" structures (often appearing as lobulated, hyperreflective nodules) and is frequently associated with subretinal hemorrhage. While this lesion is elevated, it lacks the specific polypoidal morphology and hemorrhagic features typical of PCV.\n    *   **Wet AMD (2)**: The presence of a large, hyperreflective PED with significant shadowing is a classic presentation of neovascular AMD (specifically Type 1 or mixed CNV). The fibrovascular tissue causes the high reflectivity and shadowing.\n\nTherefore, the probability is highest for wet AMD.\n\nNormal=0.0000 dry=0.0500 wet=0.9000 PCV=0.0500",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retinal layers appear intact and well-organized. There is a clear foveal depression, no signs of intraretinal or subretinal fluid (which would suggest wet AMD), no drusen or pigment epithelial detachments (associated with dry AMD), and no polypoidal lesions or subretinal hyperreflective material (associated with PCV). The structure is consistent with a healthy, normal retina.\n\nNormal=0.9500 dry=0.0300 wet=0.0100 PCV=0.0100",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the analysis is as follows:\n\n1.  **Image Analysis**: The OCT scan displays a prominent, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). This structure is a Pigment Epithelial Detachment (PED).\n2.  **Differentiation**:\n    *   **Dry AMD (1)**: Typically presents with drusen (small bumps) or geographic atrophy (flat areas of thinning). While a fibrotic scar from dry AMD can look elevated, the smooth, convex dome shape seen here is more characteristic of fluid accumulation.\n    *   **Wet AMD (2)**: Characterized by the presence of Choroidal Neovascularization (CNV). A classic presentation of CNV is a serous PED, where fluid accumulates under the RPE, creating the smooth, high-reflectivity dome seen in the image. The overlying retina is draped over this elevation. This is the most likely diagnosis for this specific morphology.\n    *   **PCV (3)**: Polypoidal Choroidal Vasculopathy often presents with a \"double-layer sign\" or a more irregular, lobulated appearance. While it can cause PEDs, the smooth, unilocular dome is the hallmark of a serous PED associated with typical wet AMD.\n    *   **Normal (0)**: The retina is clearly abnormal due to the large elevation.\n\n3.  **Conclusion**: The image shows a classic serous Pigment Epithelial Detachment, which is a hallmark sign of neovascular (wet) AMD. Therefore, the probability for wet AMD is highest.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows a significant elevation of the retinal pigment epithelium (RPE) with subretinal fluid and hyperreflective material, which is characteristic of neovascular (wet) age-related macular degeneration (AMD). The presence of subretinal fluid and the irregular, elevated structure strongly suggest wet AMD rather than dry AMD (which typically shows drusen or atrophy without fluid) or PCV (which often presents with distinct polypoidal lesions, though it can overlap with wet AMD, the classic presentation here leans towards wet AMD). Normal is ruled out due to the obvious pathology.\n\nTherefore, the probability distribution is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Image Analysis:**\nThe color fundus photograph shows the macula. There are no obvious signs of drusen, pigmentary changes, atrophy, or neovascularization (hemorrhage, exudates). The fovea appears relatively normal.\n\n**OCT Image Analysis:**\nThe OCT scan provides cross-sectional imaging of the retina.\n- The retinal layers appear relatively intact and well-defined.\n- There is no evidence of subretinal fluid (SRF), which would indicate wet AMD.\n- There is no significant disruption of the retinal pigment epithelium (RPE) or photoreceptor layer, which would be expected in advanced dry AMD or PCV.\n- The choroid appears normal in thickness and structure.\n- There are no signs of choroidal polyps characteristic of PCV.\n\n**Conclusion:**\nBased on the absence of significant findings in both the CFP and OCT images (no drusen, atrophy, neovascularization, SRF, or choroidal polyps), the eye appears to be normal.\n\n**Probability Estimation:**\n- Normal: The images show no signs of AMD or PCV. Probability = 1.00\n- Dry AMD: No drusen or RPE changes are visible. Probability = 0.00\n- Wet AMD: No signs of neovascularization or SRF. Probability = 0.00\n- PCV: No choroidal polyps are visible. Probability = 0.00\n\n**Output:**\nNormal=1.00 dry=0.00 wet=0.00 PCV=0.00",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the fundus photograph:\n\n1.  **Analysis**: The image shows a distinct, large, yellowish-white lesion in the macular region. The lesion has a somewhat circinate (ring-like) appearance with a central area of darker pigmentation or atrophy and a surrounding rim of subretinal fibrosis or hard exudates.\n2.  **Differential Diagnosis**:\n    *   **Normal (0)**: The presence of a large macular lesion rules this out.\n    *   **Dry AMD (1)**: While dry AMD involves drusen and atrophy, this lesion is too large, elevated, and distinct (resembling a disciform scar) to be typical dry AMD.\n    *   **PCV (3)**: PCV often presents with subretinal hemorrhage and orange nodules. While possible, the classic \"disciform scar\" appearance is more strongly associated with wet AMD.\n    *   **Wet AMD (2)**: The lesion is highly characteristic of a **disciform scar**, which is the end-stage result of neovascular (wet) AMD. The ring of fibrosis and central atrophy are hallmarks of this condition. The bright reflex on the optic disc is likely an artifact (flash reflection) and not a pathological feature like a polyp.\n\nTherefore, the probability is heavily weighted towards wet AMD due to the presence of a disciform scar.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the provided images:\n\n1.  **CFP (Color Fundus Photography):** The image shows a relatively healthy-appearing retina. The optic disc is distinct, and the vasculature appears normal. There are no obvious large drusen, hemorrhages, or pigmentary changes typically associated with advanced AMD. However, the macula has a slightly dull reflex, which might suggest subtle underlying changes not clearly visible to the naked eye.\n2.  **OCT (Optical Coherence Tomography):** This is the diagnostic key. The scan reveals a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). The space beneath the RPE is hyporeflective (dark), indicating fluid accumulation (serous detachment). The neurosensory retina is detached from the RPE but remains structurally intact (no intraretinal cysts or subretinal hyperreflective material typical of active wet AMD). This appearance is characteristic of a **Serous Pigment Epithelial Detachment (PED)**.\n\n**Classification Logic:**\n*   **Normal (0):** Unlikely due to the clear pathology (PED) seen on OCT.\n*   **Wet AMD (2):** While wet AMD involves fluid, it is typically associated with a Choroidal Neovascular Membrane (CNVM). On OCT, this often presents as subretinal hyperreflective material (SRM) or intraretinal fluid. The absence of these features makes \"wet\" less likely than dry, although a \"dry\" PED can sometimes be a precursor or a variant. However, in standard classification datasets (like APTOS or similar), isolated serous PEDs without hemorrhage or exudation are often categorized under dry AMD (specifically the atrophic or drusenoid spectrum) or as a distinct entity. Given the options, it fits best in the non-exudative category.\n*   **PCV (3):** PCV is characterized by polypoidal lesions and often presents with hemorrhagic PEDs. The OCT here shows a \"clean\" serous PED without the hyperreflective polypoidal structures or hemorrhage.\n*   **Dry AMD (1):** This category encompasses non-neovascular AMD, including drusen and pigmentary changes. A serous PED can be associated with dry AMD (as a complication of drusen) or be an isolated finding. In the absence of definitive neovascular signs (like SRM or hemorrhage), this is the most appropriate classification among the choices. The \"dry\" label is used to distinguish it from the \"wet\" (neovascular) category.\n\nTherefore, the eye is classified as having dry AMD features (specifically a serous PED) rather than wet AMD or PCV.\n\nNormal=0.00 dry=0.85 wet=0.10 PCV=0.05",
+"expected": [
+0.0,
+0.85,
+0.1,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the fundus photograph:\n1.  **Large geographic atrophy:** There is a massive area of hypopigmentation (white/yellowish) involving the macula and extending superiorly. This indicates severe loss of the retinal pigment epithelium (RPE) and choriocapillaris, which is characteristic of advanced dry AMD (geographic atrophy).\n2.  **Hard exudates:** There are distinct, bright yellow, waxy deposits (hard exudates) clustered inferiorly and superiorly within the atrophic zone. Hard exudates are lipid residues from leaking microaneurysms or vessels, typically associated with neovascular (wet) AMD or diabetic retinopathy.\n3.  **Subretinal fibrosis/scar:** The central area appears scarred and irregular, suggesting a history of neovascular activity that has led to disciform scarring.\n4.  **Absence of Polypoidal features:** There are no obvious orange nodules or distinct polypoidal lesions typical of PCV.\n\n**Conclusion:** The image shows a \"burnt-out\" or mixed picture. The dominant feature is the massive atrophy (Dry AMD), but the presence of hard exudates and scarring strongly implies a history of neovascularization (Wet AMD). In classification tasks, such advanced cases with significant exudation and scarring are often categorized as Wet AMD due to the active or recent neovascular component, or potentially as a mixed stage. However, given the sheer extent of the atrophy, it is a very strong candidate for Dry AMD (Geographic Atrophy). But the exudates are a key differentiator. Usually, pure dry AMD does not have hard exudates. The presence of exudates makes \"Wet\" a very high probability. Let's weigh them. The atrophy is the most striking feature. However, standard datasets often label cases with exudates/hemorrhage/scarring as Wet. Let's look closer. The yellow clumps are definitely hard exudates. This implies leakage. Leakage = Wet. Therefore, Wet is the most likely active pathology, even if it has progressed to atrophy.\n\nLet's re-evaluate. Is it possible this is just severe dry AMD with some secondary changes? Unlikely to have such distinct hard exudates without neovascularization.\nIs it PCV? PCV often presents with subretinal hemorrhage and orange nodules. Not clearly seen here.\nSo it's between Dry and Wet.\nThe prompt asks for probability.\nThe massive atrophy is the defining visual characteristic.\nHowever, the *cause* of the exudates is neovascularization.\nIn many clinical contexts, this would be called \"End-stage AMD\" or \"Disciform scar\".\nIf forced to choose between Dry and Wet based on the *current* state: The tissue is dead (atrophic). But the *process* that got it there was Wet.\nLet's look at the distribution. The exudates are quite prominent.\nLet's assign high probability to Wet due to the exudates, but acknowledge the atrophy.\nActually, looking at similar cases in literature, large areas of atrophy with hard exudates are often classified as Wet AMD (neovascular) because the exudation is the active sign.\nHowever, some might argue the atrophy is the main feature.\nLet's look at the options again.\n0 = Normal\n1 = dry AMD\n2 = wet AMD\n3 = PCV\n\nThe presence of hard exudates is a hallmark of exudative (wet) AMD. Pure dry AMD (atrophic) does not leak lipids. Therefore, the probability for Wet must be significant. The probability for Dry is also high because of the atrophy.\nLet's estimate:\nWet: 0.60 (due to exudates/scarring)\nDry: 0.35 (due to atrophy)\nNormal: 0.00\nPCV: 0.05\n\nWait, let's look at the image again. The yellow stuff is very bright and confluent. It looks like a large plaque of subretinal fibrosis with associated exudation. This is classic for a disciform scar resulting from Wet AMD.\nTherefore, Wet is the primary diagnosis.\n\nNormal=0.0000 dry=0.1500 wet=0.8000 PCV=0.0500",
+"expected": [
+0.0,
+0.15,
+0.8,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows a large, dome-shaped elevation of the retinal pigment epithelium (RPE) with subretinal fluid and hyperreflective material, which is characteristic of choroidal neovascularization (CNV). This presentation is most consistent with wet AMD (neovascular/exudative). While PCV can also present with subretinal fluid and RPE elevation, the classic \"double-layer sign\" or polypoidal structures are not clearly visible here, making wet AMD the more probable diagnosis. Dry AMD typically presents with drusen and atrophy without significant fluid or large elevations. Normal eyes would show smooth, intact retinal layers.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retinal layers appear intact and well-organized. There is a clear foveal depression, no signs of intraretinal or subretinal fluid (which would suggest wet AMD), no drusen or pigment epithelial detachments (which would suggest dry AMD), and no polypoidal lesions or subretinal hyperreflective material (which would suggest PCV). The structure is consistent with a healthy, normal retina.\n\nNormal=1.0000 dry=0.0000 wet=0.0000 PCV=0.0000",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images, let's analyze the findings:\n\n1.  **Color Fundus Photography (CFP):** The CFP image shows a relatively clear optic disc and macula. There are some subtle changes in the macula, possibly some pigmentary alterations or mild atrophy, but no obvious signs of drusen, hemorrhage, exudates, or neovascularization. The peripheral retina appears unremarkable.\n2.  **Optical Coherence Tomography (OCT):** The OCT images show cross-sections of the macula.\n    *   The first OCT image shows a relatively normal foveal contour, although there might be subtle thinning of the outer retinal layers.\n    *   The second OCT image shows a slightly more pronounced thinning of the outer retinal layers, potentially indicating some degree of geographic atrophy or RPE changes.\n    *   The third OCT image shows a similar pattern to the second, with thinning of the outer retinal layers.\n    *   The fourth OCT image shows a more significant thinning of the outer retinal layers, possibly indicating a more advanced stage of atrophy.\n\n**Interpretation:**\n\n*   The CFP does not show clear signs of advanced dry AMD (large geographic atrophy) or wet AMD (hemorrhage, exudates, neovascularization).\n*   The OCT images show thinning of the outer retinal layers, which is characteristic of geographic atrophy, a form of dry AMD. The extent of thinning varies across the images, suggesting some heterogeneity. There are no signs of subretinal fluid or neovascular membranes indicative of wet AMD. There are no features suggestive of PCV (polypoidal lesions).\n\n**Conclusion:**\n\nThe findings are most consistent with dry AMD, specifically geographic atrophy, although it might be in an early or mild stage based on the CFP. There are no features suggesting wet AMD or PCV. The retina does not appear completely normal.\n\n**Probability Estimation:**\n\n*   **Normal (0):** The OCT findings of outer retinal thinning make a completely normal classification unlikely. Probability: 0.05\n*   **Dry AMD (1):** The OCT findings of outer retinal thinning are characteristic of dry AMD (geographic atrophy). Probability: 0.85\n*   **Wet AMD (2):** There are no signs of choroidal neovascularization, subretinal fluid, or hemorrhage in either CFP or OCT. Probability: 0.05\n*   **PCV (3):** There are no features suggestive of polypoidal choroidal vasculopathy. Probability: 0.05\n\n**Final Answer:**\n\nNormal=0.05 dry=0.85 wet=0.05 PCV=0.05",
+"expected": [
+0.05,
+0.85,
+0.05,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image:\n\n1.  **Analysis of the Image**:\n    *   The image shows a cross-section of the retina with significant structural abnormalities.\n    *   There is a distinct elevation of the Retinal Pigment Epithelium (RPE), appearing as a dome-shaped hyperreflective mass. This is characteristic of a Pigment Epithelial Detachment (PED).\n    *   Crucially, there is a hyporeflective (dark) space located between the neurosensory retina and the elevated RPE. This indicates the presence of subretinal fluid (SRF).\n    *   The presence of subretinal fluid is a hallmark sign of active neovascularization (wet AMD). In dry AMD, one would typically see drusen (deposits under the RPE) or geographic atrophy (thinning), but not significant fluid accumulation.\n    *   While Polypoidal Choroidal Vasculopathy (PCV) is a subtype of neovascular AMD that often presents with PEDs, the general category of \"wet AMD\" is the primary classification for exudative disease with fluid. Without specific polypoidal features visible (like a branching vascular network or distinct polyps), the most probable classification is wet AMD.\n\n2.  **Probability Estimation**:\n    *   **Normal (0)**: The retina is clearly pathological. Probability is near 0.\n    *   **Dry AMD (1)**: The presence of subretinal fluid rules out simple dry AMD. Probability is near 0.\n    *   **Wet AMD (2)**: The features (PED + Subretinal Fluid) are classic for neovascular AMD. This is the most likely diagnosis.\n    *   **PCV (3)**: PCV is a possibility given the PED, but wet AMD is the broader and more standard classification for this appearance in general datasets unless specific polypoidal signs are highlighted. It is less likely than general wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, here is the analysis:\n\n1.  **Image Features**: The OCT scan shows a significant elevation of the Retinal Pigment Epithelium (RPE) on the left side, consistent with a large Pigment Epithelial Detachment (PED). Crucially, there is a distinct, irregular hyperreflective mass located *underneath* the RPE (sub-RPE) that is causing this elevation. This sub-RPE hyperreflectivity is a hallmark feature of Polypoidal Choroidal Vasculopathy (PCV), representing the polypoidal lesions and associated fibrovascular tissue.\n2.  **Differentiation**:\n    *   **Normal**: Ruled out due to obvious pathology.\n    *   **Dry AMD**: While drusen are present, the large, complex sub-RPE mass and PED are characteristic of neovascular disease, not simple atrophy or drusen.\n    *   **Wet AMD (CNV)**: While wet AMD involves subretinal fluid and hyperreflective material, the specific morphology of a large, dome-shaped PED with a dense, irregular sub-RPE core is highly suggestive of PCV. PCV is often considered a subtype of wet AMD, but in a 4-class classification, this specific morphology points to PCV.\n    *   **PCV**: The \"bumpy\" or irregular sub-RPE hyperreflective lesion is the key discriminator. This appearance is classic for the polypoidal complexes seen in PCV.\n\nTherefore, the probability is highest for PCV.\n\nNormal=0.0000 dry=0.0000 wet=0.1000 PCV=0.9000",
+"expected": [
+0.0,
+0.0,
+0.1,
+0.9
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal images (CFP and OCT), let's analyze the findings to classify the eye.\n\n**CFP Images:**\n*   The color fundus photographs show a relatively clear macula.\n*   There are no obvious signs of subretinal fluid, hemorrhage, or neovascularization typically associated with wet AMD.\n*   There are no large, well-defined areas of geographic atrophy characteristic of advanced dry AMD.\n*   There are no signs suggestive of PCV, such as branching vascular networks or polypoidal lesions.\n\n**OCT Images:**\n*   The OCT images show a clear view of the retinal layers.\n*   There is no evidence of subretinal fluid (SRF), intraretinal fluid (IRF), or pigment epithelial detachment (PED) which would indicate wet AMD.\n*   There is no significant thinning of the outer retinal layers or disruption of the photoreceptor inner segment/outer segment (IS/OS) junction, which might be seen in advanced dry AMD or PCV.\n*   The foveal contour appears relatively normal.\n\n**Conclusion:**\nThe images do not show clear signs of wet AMD, dry AMD, or PCV. The macula appears relatively normal based on the provided imaging. Therefore, the most likely classification is Normal (no AMD).\n\n**Probability Estimation:**\n*   Normal: The images show no significant pathology. Probability = 0.95\n*   Dry AMD: While early changes might be subtle, there are no obvious signs like drusen, RPE changes, or atrophy. Probability = 0.04\n*   Wet AMD: No signs of leakage, fluid, or neovascularization. Probability = 0.005\n*   PCV: No characteristic features are visible. Probability = 0.005\n\n**Output:**\nNormal=0.95 dry=0.04 wet=0.005 PCV=0.005",
+"expected": [
+0.95,
+0.04,
+0.005,
+0.005
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal imaging (CFP and OCT), let's analyze the features to classify the eye into one of the four categories: Normal, dry AMD, wet AMD, or PCV.\n\n**CFP Analysis:**\nThe CFP shows a relatively clear view of the macula. There are no obvious signs of drusen, pigmentary changes, or neovascularization typically associated with AMD. The fovea appears relatively normal. There are no signs suggestive of PCV like branching vascular networks or polypoidal lesions.\n\n**OCT Analysis:**\nThe OCT scan shows the retinal layers. The foveal pit appears relatively well-defined. There is no evidence of subretinal fluid, intraretinal fluid, or choroidal neovascularization (CNV) which would be characteristic of wet AMD. There are no signs of geographic atrophy or significant drusen accumulation which would be typical for dry AMD. The retinal layers appear relatively normal in thickness and structure.\n\n**Classification:**\nGiven the absence of significant findings like drusen, pigmentary changes, atrophy, subretinal fluid, or CNV in both the CFP and OCT images, the eye appears to be normal.\n\n**Probability Estimation:**\n- Normal: The images show no clear signs of AMD or PCV. Therefore, the probability of it being normal is high.\n- dry AMD: There are no visible drusen or pigmentary changes in the CFP, and no atrophy in the OCT. The probability is low.\n- wet AMD: There is no evidence of subretinal fluid or CNV in the OCT. The probability is very low.\n- PCV: There are no characteristic features of PCV visible. The probability is very low.\n\n**Final Probabilities:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal imaging (CFP and OCT), let's analyze the features to classify the eye:\n\n**CFP Analysis:**\n*   The image shows a relatively clear view of the macula.\n*   There are some subtle changes in the retinal pigment epithelium (RPE) and possibly some mild pigmentary changes, but no obvious drusen, geographic atrophy, or signs of choroidal neovascularization (CNV) like leakage or hemorrhage.\n*   The fovea appears relatively normal.\n\n**OCT Analysis:**\n*   The OCT scan shows the retinal layers.\n*   There is no evidence of subretinal fluid (SRF), intraretinal fluid (IRF), or pigment epithelial detachment (PED), which are characteristic signs of wet AMD.\n*   There is no evidence of a polypoidal lesion, which would be characteristic of PCV.\n*   The retinal layers appear relatively intact, although there might be subtle thinning or changes in the outer retinal layers, which could be early signs of dry AMD.\n*   There are no large drusen visible in the OCT.\n\n**Classification:**\n*   **Normal (0):** While the image doesn't show definitive signs of advanced AMD, subtle changes might be present. It's hard to definitively call it completely normal without more information or comparison to previous images.\n*   **Dry AMD (1):** The subtle changes in the RPE and potential thinning in the outer retinal layers on OCT could suggest early or intermediate dry AMD. However, the absence of significant drusen or atrophy makes this classification less certain.\n*   **Wet AMD (2):** There are no clear signs of CNV, SRF, IRF, or PED on the OCT or CFP, making wet AMD unlikely.\n*   **PCV (3):** There is no evidence of polypoidal lesions on the OCT or CFP, ruling out PCV.\n\n**Probability Estimation:**\nGiven the subtle findings, it's difficult to be certain. The image doesn't show clear signs of advanced disease (wet AMD or PCV) or significant dry AMD features like large drusen or atrophy. However, it's not perfectly normal either.\n\n*   **Normal (0):** There are subtle changes, so it's probably not perfectly normal. Let's estimate a probability of 0.40.\n*   **Dry AMD (1):** The subtle changes could represent early dry AMD. Let's estimate a probability of 0.40.\n*   **Wet AMD (2):** No clear signs. Let's estimate a probability of 0.10.\n*   **PCV (3):** No signs. Let's estimate a probability of 0.10.\n\nLet's refine the probabilities. The OCT shows relatively normal retinal layers, making significant dry AMD (with atrophy or large drusen) less likely. The CFP also doesn't show obvious drusen or RPE changes. Therefore, the eye might be closer to normal or have very early, subtle changes.\n\n*   **Normal (0):** 0.50\n*   **Dry AMD (1):** 0.40\n*   **Wet AMD (2):** 0.05\n*   **PCV (3):** 0.05\n\nNormal=0.50 dry=0.40 wet=0.05 PCV=0.05",
+"expected": [
+0.5,
+0.4,
+0.05,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, here is the analysis:\n\n1.  **Image Analysis**: The OCT scan shows a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). The space beneath this elevation is hyporeflective (dark), which indicates the presence of fluid (serous fluid). This is a classic presentation of a **Serous Pigment Epithelial Detachment (PED)**.\n2.  **Category Evaluation**:\n    *   **Normal (0)**: The presence of a PED and subretinal fluid rules out a normal eye.\n    *   **Dry AMD (1)**: Dry AMD is characterized by drusen (hyperreflective deposits) and geographic atrophy. While drusen can be present, the dominant feature here is a fluid-filled detachment, which is not the primary definition of dry AMD.\n    *   **PCV (3)**: PCV is characterized by polypoidal lesions, which typically appear as hyperreflective nodules within the PED or subretinal space. The space in this image is uniformly dark (hyporeflective), lacking the internal reflectivity typical of PCV polyps.\n    *   **Wet AMD (2)**: Wet AMD (neovascular AMD) is defined by the growth of abnormal blood vessels (CNV) that leak fluid. A serous PED is a hallmark sign of wet AMD (specifically Type 1 CNV or \"occult CNV\"). The fluid accumulation is the key pathological feature distinguishing it from dry AMD.\n\n3.  **Conclusion**: The image displays a serous PED, which is a strong indicator of neovascular activity (Wet AMD). While PCV is a differential, the lack of hyperreflective polyps makes Wet AMD the most probable classification.\n\nNormal=0.00 dry=0.00 wet=0.95 PCV=0.05",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the retinal layers appear intact and well-organized. There is no evidence of intraretinal or subretinal fluid (which would suggest wet AMD), no significant drusen or geographic atrophy (which would suggest dry AMD), and no polypoidal lesions or subretinal hemorrhage (which would suggest PCV). The foveal contour is preserved, and the retinal pigment epithelium (RPE) band is continuous. This appearance is consistent with a healthy, normal retina.\n\nNormal=1.0000 dry=0.0000 wet=0.0000 PCV=0.0000",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, here is the analysis:\n\n1.  **Image Analysis**: The OCT B-scan shows a significant, dome-shaped elevation of the Retinal Pigment Epithelium (RPE). The material within this elevation is highly hyperreflective (bright), which is characteristic of a Fibrovascular Pigment Epithelial Detachment (PED) or a large drusenoid PED with associated subretinal fluid.\n2.  **Pathology Identification**: This structural disruption, specifically the presence of a PED with hyperreflective material and likely subretinal fluid, is the hallmark of **wet (neovascular) Age-related Macular Degeneration (AMD)**. The neovascular membrane (CNV) grows under the RPE, causing it to detach and leak.\n3.  **Differentiation**:\n    *   **Normal**: Ruled out due to the massive elevation and fluid.\n    *   **Dry AMD**: While dry AMD involves drusen, they typically do not cause such a large, steep, hyperreflective PED with this degree of structural distortion unless they have converted to wet AMD. The hyperreflectivity suggests active neovascularization or fibrosis associated with wet AMD.\n    *   **PCV**: Polypoidal Choroidal Vasculopathy often presents with a double-layer sign or specific polypoidal structures. While it can look similar to wet AMD on OCT, the classic \"wet AMD\" presentation (CNV with PED) is the primary classification for this appearance in general datasets unless specific polypoidal features are distinct. However, wet AMD is the broader and more standard classification for this specific hyperreflective PED morphology in many contexts.\n    *   **Wet AMD**: The image is a textbook example of a fibrovascular PED associated with neovascular AMD.\n\nTherefore, the probability is heavily weighted towards wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the analysis is as follows:\n\n1.  **Image Analysis**: The OCT scan shows a significant elevation of the Retinal Pigment Epithelium (RPE) and overlying neurosensory retina. This is a Pigment Epithelial Detachment (PED).\n2.  **Texture and Content**: The material within the PED is highly hyperreflective (bright) and heterogeneous. There are vertical \"shadows\" or signal voids extending downwards into the choroid. This pattern is characteristic of a **Fibrotic PED** or a **Drusenoid PED with significant fibrosis/scarring**.\n3.  **Differentiation**:\n    *   **Normal (0)**: Ruled out due to the large structural abnormality.\n    *   **Wet AMD (2)**: Wet AMD typically presents with subretinal fluid (hyporeflective space) or a serous PED (optically empty). While fibrotic PEDs are a sequela of wet AMD, the absence of active fluid and the presence of dense fibrosis make the \"active wet\" classification less probable than the dry/atrophic classification in many automated systems, or it represents the \"scarring\" phase. However, the hyperreflectivity is very high, suggesting fibrosis.\n    *   **PCV (3)**: PCV is characterized by polypoidal lesions, often appearing as distinct, rounded, hyperreflective nodules at the RPE level, sometimes with a \"double-layer sign\". The image shows a broad, irregular mound rather than distinct polyps.\n    *   **Dry AMD (1)**: Dry AMD is characterized by drusen and geographic atrophy. Large, confluent, hyperreflective drusen or fibrotic drusenoid PEDs are hallmarks of advanced dry AMD (or the dry phase of AMD). The \"shadows\" and high reflectivity are consistent with dense drusenoid material or fibrosis associated with dry AMD.\n\n**Conclusion**: The image displays a large, hyperreflective, fibrotic PED. In the context of standard classification datasets (like those used for AI training), such lesions—lacking active fluid and distinct polyps—are most frequently classified as **Dry AMD** (representing large drusen/fibrosis) or sometimes as a scarred **Wet AMD**. However, the visual features (solid, hyperreflective mound) align most strongly with the **Dry AMD** category (specifically, advanced dry AMD with fibrotic changes) in contrast to the fluid-filled appearance of Wet AMD or the nodular appearance of PCV.\n\nTherefore, the probability is highest for Dry AMD.\n\nNormal=0.0000 dry=0.8500 wet=0.1000 PCV=0.0500",
+"expected": [
+0.0,
+0.85,
+0.1,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image:\n\n1.  **Image Analysis**: The OCT B-scan shows a cross-section of the retina. The retinal layers are well-delineated and follow a smooth, physiological contour. There is no evidence of subretinal fluid, intraretinal cysts (edema), or pigment epithelial detachments (PEDs) that would suggest wet AMD or PCV.\n2.  **Pathology Check**:\n    *   **Wet AMD (2)** and **PCV (3)** are characterized by fluid accumulation (exudation) or distinct vascular structures (polyps/PEDs). Neither is present here.\n    *   **Dry AMD (1)** is characterized by drusen (deposits under the RPE) or geographic atrophy. While there is a very small, subtle hyperreflective spot on the RPE band towards the right side (which could be a small druse), the overall architecture is preserved, and there are no large confluent drusen or atrophic changes typical of a diagnosis of dry AMD in a classification context. However, compared to a \"perfectly normal\" eye, this might be a borderline case. But typically, in these datasets, a clean scan like this without obvious pathology is classified as Normal. The small bump is likely a minor artifact or a tiny druse not sufficient to classify as the disease state \"Dry AMD\" which usually implies visible pathology.\n    *   **Normal (0)**: The absence of fluid, significant drusen, or atrophy points to a healthy retina.\n\nTherefore, the probability is overwhelmingly in favor of Normal.\n\nNormal=0.9500 dry=0.0400 wet=0.0050 PCV=0.0050",
+"expected": [
+0.95,
+0.04,
+0.005,
+0.005
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the key features are the presence of multiple, distinct, dome-shaped elevations of the Retinal Pigment Epithelium (RPE). These are characteristic of drusen (specifically soft drusen or drusenoid pigment epithelial detachments). There is no evidence of subretinal fluid, intraretinal fluid, or hyperreflective material indicative of active neovascularization (wet AMD). The appearance is classic for intermediate to advanced dry Age-related Macular Degeneration (AMD).\n\nNormal=0.0000 dry=0.9500 wet=0.0300 PCV=0.0200",
+"expected": [
+0.0,
+0.95,
+0.03,
+0.02
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the provided color fundus photograph:\n\n1.  **Analysis**: The image displays a large, irregular area of pathology in the macula. Key features include:\n    *   **Subretinal Hemorrhage**: There are distinct dark red/brown patches, particularly in the inferior and central regions, indicating bleeding beneath the retina.\n    *   **Exudation/Fibrosis**: There are yellowish-white areas (hard exudates or subretinal fibrosis/scarring) mixed with the hemorrhage.\n    *   **Disruption**: The normal retinal architecture is severely disrupted.\n    *   **Absence of Polyps**: There are no distinct, bright orange-red polypoidal lesions characteristic of PCV visible in this 2D projection, although PCV can present similarly to wet AMD. However, the extensive hemorrhage and exudation are classic signs of active neovascularization.\n\n2.  **Classification**:\n    *   **Normal (0)**: Ruled out due to obvious pathology.\n    *   **Dry AMD (1)**: Ruled out. Dry AMD typically presents with drusen and geographic atrophy, not massive hemorrhage and exudation.\n    *   **Wet AMD (2)**: Highly likely. The presence of subretinal hemorrhage and exudation is the hallmark of neovascular (wet) AMD.\n    *   **PCV (3)**: Possible, as PCV is a subtype of neovascular AMD that often presents with hemorrhage. However, without specific angiographic evidence of polyps, the general category of \"wet AMD\" is the primary classification for this appearance. In many datasets, this appearance is labeled as wet AMD unless specific polypoidal features are highlighted. Given the ambiguity, the probability is split, but wet AMD is the broader and more standard diagnosis for this presentation.\n\n3.  **Probability Estimation**:\n    *   The image is a clear case of neovascular disease.\n    *   Wet AMD is the most common cause of this presentation.\n    *   PCV is a differential but less likely to be the *sole* label without specific features.\n    *   Therefore, the probability is heavily weighted towards Wet AMD.\n\nNormal=0.0000 dry=0.0000 wet=0.8500 PCV=0.1500",
+"expected": [
+0.0,
+0.0,
+0.85,
+0.15
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the key feature is the presence of a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE) with hyporeflective (dark) space underneath, consistent with a Pigment Epithelial Detachment (PED). The overlying neurosensory retina is elevated but appears relatively intact without significant intraretinal fluid or subretinal fluid.\n\nThis presentation is characteristic of **dry AMD** (specifically, the drusenoid or fibrovascular PED stage of non-neovascular AMD). It lacks the classic signs of wet AMD (such as subretinal fluid, intraretinal cysts, or hyperreflective material indicating active leakage) and PCV (which typically presents with a more complex, lobulated \"saw-tooth\" appearance and often associated hemorrhage).\n\nTherefore, the probability distribution is heavily weighted towards dry AMD.\n\nNormal=0.0000 dry=0.9500 wet=0.0400 PCV=0.0100",
+"expected": [
+0.0,
+0.95,
+0.04,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the visual features of the fundus photograph:\n\n1.  **Analysis**: The image shows a clear optic disc and macula. The most prominent abnormality is a cluster of yellowish, well-defined lesions in the inferotemporal region (below the macula). These lesions are characteristic of **hard exudates** (lipid deposits).\n2.  **Differential Diagnosis**:\n    *   **Normal (0)**: Incorrect due to the presence of exudates.\n    *   **Dry AMD (1)**: Typically presents with drusen (yellowish, fluffy deposits) and pigmentary changes. While hard exudates can occur in advanced dry AMD (disciform scar), they are less common as an isolated finding compared to wet AMD.\n    *   **Wet AMD (2)**: Characterized by choroidal neovascularization (CNV), which leads to leakage of fluid and lipids, resulting in hard exudates. The presence of hard exudates is a strong indicator of exudative (wet) pathology. Although there are no obvious hemorrhages or subretinal fluid visible in this 2D image, the exudates are a hallmark sign of the wet form.\n    *   **PCV (3)**: A subtype of wet AMD, often associated with polypoidal lesions and hemorrhage. While possible, the classic presentation of hard exudates without obvious hemorrhage or pigment epithelial detachment makes typical wet AMD a more probable classification than PCV specifically.\n\n3.  **Conclusion**: The presence of hard exudates strongly points towards an exudative process, most commonly Wet AMD in the context of AMD classification.\n\nNormal=0.00 dry=0.05 wet=0.90 PCV=0.05",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the analysis of the color fundus photograph:\n\n1.  **Image Features**: The image shows a clear view of the optic disc, macula, and retinal vasculature. The optic disc margins are distinct. The macula appears healthy with a visible foveal reflex and no obvious pigmentary changes, drusen, or atrophy.\n2.  **Pathology Check**:\n    *   **Wet AMD (2)**: There are no signs of subretinal fluid, hemorrhage, or lipid exudation, which rules out active wet AMD.\n    *   **PCV (3)**: There are no visible polypoidal lesions or orange nodules characteristic of PCV.\n    *   **Dry AMD (1)**: There are no significant drusen (yellow deposits) or geographic atrophy visible in the macular region. The background retina appears uniform.\n    *   **Normal (0)**: The absence of pathological features suggests a healthy retina.\n\nTherefore, the probability is overwhelmingly in favor of the eye being normal.\n\nNormal=0.9500 dry=0.0300 wet=0.0100 PCV=0.0100",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "The image shows a color fundus photograph (CFP) of the retina. The key features to look for in classifying AMD are drusen, pigmentary changes, atrophy, and signs of choroidal neovascularization (CNV) like leakage or hemorrhage.\n\nIn this image:\n- The optic disc appears normal.\n- The macula appears relatively normal, without obvious signs of significant atrophy (geographic atrophy) or large drusen deposits typical of advanced dry AMD.\n- There are no obvious signs of subretinal fluid, hemorrhage, or exudates that would suggest wet AMD.\n- The retinal vessels appear normal.\n\nBased on these observations, the eye appears largely normal, without clear signs of dry or wet AMD, or PCV. While subtle changes might be present, they are not prominent enough to confidently classify it as dry AMD.\n\nTherefore, the most likely classification is Normal (no AMD).\n\nNormal=0.95 dry=0.04 wet=0.00 PCV=0.01",
+"expected": [
+0.95,
+0.04,
+0.0,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided retinal imaging (CFP and OCT), let's analyze the features to classify the eye into one of the four categories: Normal, dry AMD, wet AMD, or PCV.\n\n**CFP Analysis:**\nThe CFP shows a relatively clear view of the macula. There are no obvious signs of drusen, pigmentary changes, or neovascularization typically associated with AMD. The fovea appears relatively normal. There are no signs suggestive of PCV like branching vascular networks or polypoidal lesions.\n\n**OCT Analysis:**\nThe OCT image shows the cross-section of the retina.\n- The retinal layers appear relatively intact and well-defined.\n- There is no evidence of subretinal fluid (SRF), which is characteristic of wet AMD.\n- There is no evidence of choroidal neovascularization (CNV) or polypoidal lesions, which would be indicative of wet AMD or PCV.\n- There are no significant signs of geographic atrophy or drusen, which are hallmarks of dry AMD.\n- The foveal pit appears normal.\n\n**Conclusion:**\nBased on both the CFP and OCT images, there are no clear signs of AMD (dry or wet) or PCV. The retinal structure appears relatively normal.\n\n**Probability Estimation:**\n- Normal: The images show no significant pathology, making this the most likely classification. Probability = 0.95\n- dry AMD: There are no visible drusen or atrophic changes. Probability = 0.03\n- wet AMD: There is no evidence of subretinal fluid or CNV. Probability = 0.01\n- PCV: There are no signs of polypoidal lesions or branching vascular networks. Probability = 0.01\n\n**Output:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the eye shows significant subretinal fluid, pigment epithelial detachment (PED), and hyperreflective material consistent with choroidal neovascularization (CNV). These features are characteristic of wet (neovascular) age-related macular degeneration. There is no clear evidence of polypoidal lesions typical of PCV, nor the drusen/atrophy typical of dry AMD. The structural disruption rules out a normal eye.\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided images (CFP and OCT), let's analyze the findings to classify the eye condition.\n\n**CFP Image Analysis:**\n*   The image shows the macula and surrounding retina.\n*   There are no obvious signs of drusen, pigmentary changes, or neovascularization visible in the CFP image. The fovea appears relatively normal.\n\n**OCT Image Analysis:**\n*   The OCT image provides a cross-sectional view of the retina.\n*   The retinal layers appear relatively intact and well-defined.\n*   There is no evidence of subretinal fluid, intraretinal fluid, choroidal neovascularization (CNV), or significant drusen deposits.\n*   The foveal pit appears normal.\n\n**Classification:**\n*   **Normal (0):** The absence of drusen, pigmentary changes, fluid, or neovascularization in both CFP and OCT suggests a normal macula.\n*   **Dry AMD (1):** Dry AMD is characterized by drusen and/or retinal pigment epithelium (RPE) changes. These are not clearly visible in the provided images.\n*   **Wet AMD (2):** Wet AMD involves CNV and associated fluid leakage (subretinal or intraretinal). There is no evidence of this on the OCT.\n*   **PCV (3):** PCV is characterized by specific branching vascular networks in the choroid, often associated with fluid. This is not evident in the images.\n\n**Conclusion:**\nBased on the analysis of both CFP and OCT images, the findings are most consistent with a normal macula, lacking the characteristic features of dry AMD, wet AMD, or PCV.\n\n**Probability Estimation:**\n*   Normal: The images show no signs of pathology. Probability = 0.95\n*   Dry AMD: No clear drusen or RPE changes are visible. Probability = 0.03\n*   Wet AMD: No fluid or CNV is detected. Probability = 0.01\n*   PCV: No characteristic vascular changes are seen. Probability = 0.01\n\n**Output:**\nNormal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided OCT image, the retina shows significant disruption of the retinal pigment epithelium (RPE) and photoreceptor layers. There is a distinct elevation of the RPE, suggestive of a pigment epithelial detachment (PED), along with hyperreflective material in the subretinal space and possible subretinal fluid. These features are characteristic of neovascular (wet) age-related macular degeneration. The presence of subretinal fluid and irregular RPE elevation makes \"wet AMD\" the most likely diagnosis compared to dry AMD (which typically shows drusen and atrophy without fluid) or PCV (which often presents with specific polypoidal structures, though wet AMD is the broader and more direct classification for this exudative appearance).\n\nNormal=0.0000 dry=0.0000 wet=0.9500 PCV=0.0500",
+"expected": [
+0.0,
+0.0,
+0.95,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Based on the provided Optical Coherence Tomography (OCT) image, the key feature is a distinct, dome-shaped elevation of the Retinal Pigment Epithelium (RPE) with a hyporeflective (dark) center. This is characteristic of a **Pigment Epithelial Detachment (PED)**.\n\n1.  **Normal (0):** The presence of a PED rules out a normal retina.\n2.  **Dry AMD (1):** While PEDs can occur in dry AMD (drusenoid PED), the morphology here—a smooth, convex, fluid-filled space—is highly suggestive of a serous PED. Serous PEDs are the hallmark of the neovascular (wet) form of AMD, caused by fluid leaking from Choroidal Neovascularization (CNV).\n3.  **Wet AMD (2):** This is the most likely diagnosis. The image shows a classic serous PED, which is a primary sign of wet AMD. The overlying neurosensory retina is elevated but relatively intact, consistent with fluid accumulation from a CNV complex.\n4.  **PCV (3):** PCV also presents with PEDs, but they are often irregular, lobulated, or \"mulberry-like\" in shape, and frequently associated with subretinal hemorrhage or intraretinal fluid. The smooth, isolated dome shape seen here is more typical of a standard CNV-associated serous PED than PCV.\n\nTherefore, the probability distribution heavily favors wet AMD.\n\nNormal=0.0000 dry=0.0500 wet=0.9000 PCV=0.0500",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.00 dry=0.00 wet=1.00 PCV=0.00",
+"expected": [
+0.0,
+0.0,
+1.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.05 dry=0.02 wet=0.75 PCV=0.18",
+"expected": [
+0.05,
+0.02,
+0.75,
+0.18
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.10 dry=0.05 wet=0.70 PCV=0.15",
+"expected": [
+0.1,
+0.05,
+0.7,
+0.15
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.98 dry=0.02 wet=0.00 PCV=0.00",
+"expected": [
+0.98,
+0.02,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.0000 dry=0.0000 wet=0.9900 PCV=0.0100.",
+"expected": [
+0.0,
+0.0,
+0.99,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.95 dry=0.03 wet=0.01 PCV=0.01",
+"expected": [
+0.95,
+0.03,
+0.01,
+0.01
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=1.0000 dry=0.0000 wet=0.0000 PCV=0.0000",
+"expected": [
+1.0,
+0.0,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.95 dry=0.02 wet=0.01 PCV=0.02",
+"expected": [
+0.95,
+0.02,
+0.01,
+0.02
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.95 dry=0.025 wet=0.01 PCV=0.02",
+"expected": [
+0.945273631840796,
+0.0248756218905472,
+0.0099502487562189,
+0.0199004975124378
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.00 dry=0.00 wet=0.90 PCV=0.10",
+"expected": [
+0.0,
+0.0,
+0.9,
+0.1
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.0000 dry=0.0500 wet=0.9000 PCV=0.0500",
+"expected": [
+0.0,
+0.05,
+0.9,
+0.05
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.0000 dry=0.0500 wet=0.7500 PCV=0.2000",
+"expected": [
+0.0,
+0.05,
+0.75,
+0.2
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.00 dry=0.50 wet=0.00 PCV=0.50",
+"expected": [
+0.0,
+0.5,
+0.0,
+0.5
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.95 dry=0.05 wet=0.00 PCV=0.00",
+"expected": [
+0.95,
+0.05,
+0.0,
+0.0
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.00 dry=0.00 wet=0.20 PCV=0.80",
+"expected": [
+0.0,
+0.0,
+0.2,
+0.8
+]
+},
+{
+"kind": "amd_text",
+"raw": "Normal=0.00 dry=0.00 wet=0.00 PCV=1.00",
+"expected": [
+0.0,
+0.0,
+0.0,
+1.0
+]
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 0, \"prob_0\": 0.85, \"prob_1\": 0.15}",
+"expected": 0.15
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":1,\"prob_0\":0.32,\"prob_1\":0.68}",
+"expected": 0.68
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 1, \"prob_0\": 0.12, \"prob_1\": 0.88}",
+"expected": 0.88
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 1, \"prob_0\": 0.15, \"prob_1\": 0.85}",
+"expected": 0.85
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.78,\"prob_1\":0.22}",
+"expected": 0.22
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "```json\n{\"cspca\": 0, \"prob_0\": 0.85, \"prob_1\": 0.15}\n```",
+"expected": 0.15
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.9,\"prob_1\":0.1}",
+"expected": 0.1
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 1, \"prob_0\": 0.05, \"prob_1\": 0.95}",
+"expected": 0.95
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\": 1, \"prob_0\": 0.02, \"prob_1\": 0.98}",
+"expected": 0.98
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "```json\n{\"cspca\": 1, \"prob_0\": 0.25, \"prob_1\": 0.75}\n```",
+"expected": 0.75
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.64,\"prob_1\":0.36}",
+"expected": 0.36
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "```json\n{\"cspca\": 0, \"prob_0\": 0.8, \"prob_1\": 0.2}\n```",
+"expected": 0.2
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 0, \"prob_0\": 0.75, \"prob_1\": 0.25}",
+"expected": 0.25
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.68,\"prob_1\":0.32}",
+"expected": 0.32
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.84,\"prob_1\":0.16}",
+"expected": 0.16
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":1,\"prob_0\":0.28,\"prob_1\":0.72}",
+"expected": 0.72
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\": 1, \"prob_0\": 0.05, \"prob_1\": 0.95}",
+"expected": 0.95
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":1,\"prob_0\":0.34,\"prob_1\":0.66}",
+"expected": 0.66
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.82,\"prob_1\":0.18}",
+"expected": 0.18
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 1, \"prob_0\": 0.32, \"prob_1\": 0.68}",
+"expected": 0.68
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":0,\"prob_0\":0.73,\"prob_1\":0.27}",
+"expected": 0.27
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":1,\"prob_0\":0.34,\"prob_1\":0.66}",
+"expected": 0.66
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":0,\"prob_0\":0.82,\"prob_1\":0.18}",
+"expected": 0.18
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.67,\"prob_1\":0.33}",
+"expected": 0.33
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":1,\"prob_0\":0.16,\"prob_1\":0.84}",
+"expected": 0.84
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":0,\"prob_0\":0.88,\"prob_1\":0.12}",
+"expected": 0.12
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\": 1, \"prob_0\": 0.03, \"prob_1\": 0.97}",
+"expected": 0.97
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.74,\"prob_1\":0.26}",
+"expected": 0.26
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 1, \"prob_0\": 0.25, \"prob_1\": 0.75}",
+"expected": 0.75
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\": 0, \"prob_0\": 0.9, \"prob_1\": 0.1}",
+"expected": 0.1
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\": 1, \"prob_0\": 0.15, \"prob_1\": 0.85}",
+"expected": 0.85
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":1,\"prob_0\":0.08,\"prob_1\":0.92}",
+"expected": 0.92
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":1,\"prob_0\":0.12,\"prob_1\":0.88}",
+"expected": 0.88
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":0,\"prob_0\":0.72,\"prob_1\":0.28}",
+"expected": 0.28
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 0, \"prob_0\": 0.95, \"prob_1\": 0.05}",
+"expected": 0.05
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.76,\"prob_1\":0.24}",
+"expected": 0.24
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.72,\"prob_1\":0.28}",
+"expected": 0.28
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\": 0, \"prob_0\": 0.85, \"prob_1\": 0.15}",
+"expected": 0.15
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 0, \"prob_0\": 0.9, \"prob_1\": 0.1}",
+"expected": 0.1
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\": 0, \"prob_0\": 0.95, \"prob_1\": 0.05}",
+"expected": 0.05
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\": 1, \"prob_0\": 0.01, \"prob_1\": 0.99}",
+"expected": 0.99
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":1,\"prob_0\":0.27,\"prob_1\":0.73}",
+"expected": 0.73
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 1, \"prob_0\": 0.28, \"prob_1\": 0.72}",
+"expected": 0.72
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":0,\"prob_0\":0.91,\"prob_1\":0.09}",
+"expected": 0.09
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":1,\"prob_0\":0.03,\"prob_1\":0.97}",
+"expected": 0.97
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 0, \"prob_0\": 0.65, \"prob_1\": 0.35}",
+"expected": 0.35
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 0, \"prob_0\": 0.82, \"prob_1\": 0.18}",
+"expected": 0.18
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":1,\"prob_0\":0.38,\"prob_1\":0.62}",
+"expected": 0.62
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.8,\"prob_1\":0.2}",
+"expected": 0.2
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "```json\n{\"cspca\": 1, \"prob_0\": 0.15, \"prob_1\": 0.85}\n```",
+"expected": 0.85
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":1,\"prob_0\":0.31,\"prob_1\":0.69}",
+"expected": 0.69
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 0, \"prob_0\": 0.62, \"prob_1\": 0.38}",
+"expected": 0.38
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":0,\"prob_0\":0.86,\"prob_1\":0.14}",
+"expected": 0.14
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\":0,\"prob_0\":0.58,\"prob_1\":0.42}",
+"expected": 0.42
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":0,\"prob_0\":0.78,\"prob_1\":0.22}",
+"expected": 0.22
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 0, \"prob_0\": 0.92, \"prob_1\": 0.08}",
+"expected": 0.08
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "{\"cspca\": 1, \"prob_0\": 0.38, \"prob_1\": 0.62}",
+"expected": 0.62
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":1,\"prob_0\":0.14,\"prob_1\":0.86}",
+"expected": 0.86
+},
+{
+"kind": "binary_closed",
+"label_key": "cspca",
+"raw": "```json\n{\"cspca\": 1, \"prob_0\": 0.05, \"prob_1\": 0.95}\n```",
+"expected": 0.95
+},
+{
+"kind": "binary_closed",
+"label_key": "biopsy",
+"raw": "{\"biopsy\":0,\"prob_0\":0.97,\"prob_1\":0.03}",
+"expected": 0.03
+},
+{
+"kind": "binary_local",
+"label_key": "biopsy",
+"raw": "0.95",
+"expected": 0.95
+},
+{
+"kind": "binary_local",
+"label_key": "biopsy",
+"raw": "0.65",
+"expected": 0.65
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.85",
+"expected": 0.85
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.05",
+"expected": 0.05
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.28",
+"expected": 0.28
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.95",
+"expected": 0.95
+},
+{
+"kind": "binary_local",
+"label_key": "biopsy",
+"raw": "0.85",
+"expected": 0.85
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.75",
+"expected": 0.75
+},
+{
+"kind": "binary_local",
+"label_key": "biopsy",
+"raw": "0.05",
+"expected": 0.05
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.73",
+"expected": 0.73
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.89",
+"expected": 0.89
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.99",
+"expected": 0.99
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.25",
+"expected": 0.25
+},
+{
+"kind": "binary_local",
+"label_key": "biopsy",
+"raw": "0.73",
+"expected": 0.73
+},
+{
+"kind": "binary_local",
+"label_key": "cspca",
+"raw": "0.92",
+"expected": 0.92
+}
+]

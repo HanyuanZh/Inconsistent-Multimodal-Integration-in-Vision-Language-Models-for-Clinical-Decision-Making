@@ -1,0 +1,15 @@
+# outputs and data are never committed
+results/
+data/*
+!data/README.md
+*.jsonl
+
+# credentials
+.env
+*_key
+*.key
+
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
