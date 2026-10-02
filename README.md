@@ -96,55 +96,14 @@ are written with `error = missing_psa` / `missing_prostate_volume` and not sent.
 
 ## Default settings
 
-`python -m vlmbench recipe` prints the setting of every run; in short:
+`python -m vlmbench recipe` prints the setting of every run.
 
-* **Local models** decode greedily (`do_sample=False`) in bfloat16; Qwen3.6 uses SDPA
-  attention, as in the study (a different attention kernel can change greedy answers). The verbalised
-  reply is capped at 16 new tokens on the binary tasks (a number needs 2–4) and 2,048
-  on AMD (a four-number line; some models reason first). MedGemma-27B on prostate used
-  the wording that forbids explanation, with a 2,048-token cap, because under the
-  standard wording it answered with radiology prose. On AMD, MedGemma-4B,
-  MedGemma-27B and Qwen3.6 likewise used the wording that asks for the
-  four-number line only.
-* **Gemini-3.5-Flash**: temperature 1.0, default thinking level (the placebo requests
-  name `medium` explicitly, as the study's placebo batches did), safety filters off,
-  JSON reply.
-* **GPT-5.6-Sol**: temperature 1.0 (the model accepts no other value), default
-  reasoning effort, JSON reply; `image_detail` low for prostate and high for skin and AMD.
-
-### Differences from the original runs
-
-The study's runs used one script per model and input type; this repository
-consolidates them. What is guaranteed to be unchanged, and what is not:
-
-* **Prompts** are byte-identical to the original runners for every input type,
-  modality combination and model family (`tests/test_prompts.py`, 560 cases rendered
-  from the original code, plus the text of the placebo requests actually submitted).
-* **Placebo images** are byte-identical, including the seeded noise
-  (`tests/test_placebo.py`). OpenAI placebo request bodies built here were compared
-  with the bodies submitted in the study (90 requests across the three tasks) and are
-  identical, images included; Gemini placebo requests match in content (images and
-  text) and safety settings.
-* **Parsing** reproduces all ~673,000 probabilities of the study's final tables from
-  the stored replies, to the tables' precision (`tests/test_parsing.py` checks a sample). The parser includes
-  a fix applied after inference in the study: a decimal written with a space after
-  the point (`0.  85`) is read as 0.85 rather than 0.
-* **Gemini output cap** defaults to 8,192 tokens instead of the original 2,048: six
-  main-grid requests spent the whole 2,048 on thinking and were re-issued at 8,192.
-  Pass `--max-new-tokens 2048` for the original cap. Gemini runs default to
-  temperature 1.0; `--temperature` changes it.
-* **Skin `case_key`** is the Derm7pt `case_num`; the original runs keyed 27 lesions by
-  `case_id`. Noise images are still seeded with the original key, so they are unchanged.
-* **Qwen3.6 AMD placebo arms** use the wording that asks for the four-number line
-  only, the same as its AMD main grid, so placebo and reference prompts are
-  identical. In the study's placebo table these arms had been run with the standard
-  wording.
-* A Derm7pt `meta.csv` path whose directory differs from the files on disk only in
-  letter case (`FCl/` vs `FCL/`, case 816) is resolved automatically.
-
-Exact replies are not guaranteed to repeat: the API models sample at temperature 1,
-and greedy decoding of local models in bfloat16 can differ across GPU types and
-multi-GPU layouts (notably for the mixture-of-experts models).
+* **Local models**: greedy decoding in bfloat16; up to 16 new tokens on the binary
+  tasks and 2,048 on AMD. MedGemma-27B on prostate, and MedGemma-4B, MedGemma-27B and
+  Qwen3.6 on AMD, use the wording that asks for the probability only.
+* **Gemini-3.5-Flash**: temperature 1.0, default thinking level, JSON reply.
+* **GPT-5.6-Sol**: temperature 1.0, default reasoning effort, JSON reply;
+  `image_detail` low for prostate, high for skin and AMD.
 
 ## Tests
 
