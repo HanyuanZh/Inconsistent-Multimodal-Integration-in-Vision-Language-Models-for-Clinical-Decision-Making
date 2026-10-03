@@ -2,6 +2,9 @@
 
 Inference code for the paper of the same title.
 
+- **Data:** https://drive.google.com/drive/folders/12EuUeEnfmpzD5WPda4lcMLWiCg7Y9W6H?usp=sharing
+- **Supplementary material:** https://drive.google.com/drive/folders/1kaG-lbmMekBJ13rVCp4zTkwG3vpGOkfL?usp=sharing
+
 Nine vision-language models are asked for a **verbalised probability** of disease
 on three tasks, for every combination of imaging modalities and clinical measures:
 
@@ -38,8 +41,9 @@ and `OPENAI_API_KEY`. Never put keys in files inside this repository.
 
 ## Data
 
-The datasets are not redistributed. See [data/README.md](data/README.md) for where to
-obtain them and the directory layout the code expects under `--data-root`.
+The processed data used in the paper are at the **Data** link above. See
+[data/README.md](data/README.md) for the original datasets and the directory layout the
+code expects under `--data-root`.
 
 ## Prompts
 

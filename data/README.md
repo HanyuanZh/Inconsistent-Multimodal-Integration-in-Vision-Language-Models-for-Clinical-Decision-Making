@@ -1,7 +1,9 @@
 # Data
 
-The three datasets are not redistributed here; obtain them from their providers
-under their terms of use. `--data-root` must contain:
+The processed data used in the paper are available at
+https://drive.google.com/drive/folders/12EuUeEnfmpzD5WPda4lcMLWiCg7Y9W6H?usp=sharing
+
+The original datasets are described below. `--data-root` must contain:
 
 ```
 <data-root>/
