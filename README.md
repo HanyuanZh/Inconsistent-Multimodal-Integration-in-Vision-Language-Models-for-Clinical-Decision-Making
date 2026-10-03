@@ -41,6 +41,10 @@ and `OPENAI_API_KEY`. Never put keys in files inside this repository.
 The datasets are not redistributed. See [data/README.md](data/README.md) for where to
 obtain them and the directory layout the code expects under `--data-root`.
 
+## Prompts
+
+The full prompt of every task and response format is in [prompts/](prompts/), with the models that use it.
+
 ## Usage
 
 ```bash

@@ -1,0 +1,82 @@
+Task: Skin lesion biopsy recommendation (Derm7pt)
+Response format: verbalised probability
+Used by: MedGemma-4B, MedGemma-27B, Lingshu-7B, Lingshu-32B, DeepSeek-VL2-tiny, DeepSeek-VL2-small, Qwen3.6-35B-A3B
+Images: given before the text; with both images, the clinical photograph comes first.
+The redundant-image experiment uses the image-only prompt unchanged.
+======================================================================
+
+[Image only]
+
+You are performing a binary classification task on skin lesion image(s).
+
+Available inputs:
+- Skin lesion image(s): <image description>
+
+Unavailable inputs must not be assumed. No lesion location, lesion elevation, clinical history, patient demographics, sex, diagnosis, management, or other information is available.
+
+The question: based only on the available inputs listed above, should this lesion be considered suspicious for malignancy and referred for further biopsy?
+
+Use label 1 when the available inputs support suspicion of malignancy and warrant further biopsy.
+Use label 0 when the available inputs do not support suspicion of malignancy, including benign-appearing, low-suspicion, equivocal, nonspecific, or insufficient evidence for biopsy.
+
+Instead of a single label, output your estimated probability that the correct label is 1 (suspicious for malignancy, refer for biopsy), as a single decimal number between 0.00 and 1.00 (0.00 = label 0 for certain, 1.00 = label 1 for certain). Reply with ONLY the number, e.g. "0.73".
+
+[Image + lesion location]
+
+You are performing a binary classification task on skin lesion image(s).
+
+Available inputs:
+- Skin lesion image(s): <image description>
+- Anatomical location: <lesion location>
+
+Unavailable inputs must not be assumed. No lesion elevation, clinical history, patient demographics, sex, diagnosis, management, or other information is available.
+
+The question: based only on the available inputs listed above, should this lesion be considered suspicious for malignancy and referred for further biopsy?
+
+Use label 1 when the available inputs support suspicion of malignancy and warrant further biopsy.
+Use label 0 when the available inputs do not support suspicion of malignancy, including benign-appearing, low-suspicion, equivocal, nonspecific, or insufficient evidence for biopsy.
+
+Instead of a single label, output your estimated probability that the correct label is 1 (suspicious for malignancy, refer for biopsy), as a single decimal number between 0.00 and 1.00 (0.00 = label 0 for certain, 1.00 = label 1 for certain). Reply with ONLY the number, e.g. "0.73".
+
+[Image + lesion elevation]
+
+You are performing a binary classification task on skin lesion image(s).
+
+Available inputs:
+- Skin lesion image(s): <image description>
+- Lesion elevation: <lesion elevation>
+
+Unavailable inputs must not be assumed. No lesion location, clinical history, patient demographics, sex, diagnosis, management, or other information is available.
+
+The question: based only on the available inputs listed above, should this lesion be considered suspicious for malignancy and referred for further biopsy?
+
+Use label 1 when the available inputs support suspicion of malignancy and warrant further biopsy.
+Use label 0 when the available inputs do not support suspicion of malignancy, including benign-appearing, low-suspicion, equivocal, nonspecific, or insufficient evidence for biopsy.
+
+Instead of a single label, output your estimated probability that the correct label is 1 (suspicious for malignancy, refer for biopsy), as a single decimal number between 0.00 and 1.00 (0.00 = label 0 for certain, 1.00 = label 1 for certain). Reply with ONLY the number, e.g. "0.73".
+
+[Image + lesion location + lesion elevation]
+
+You are performing a binary classification task on skin lesion image(s).
+
+Available inputs:
+- Skin lesion image(s): <image description>
+- Anatomical location: <lesion location>
+- Lesion elevation: <lesion elevation>
+
+Unavailable inputs must not be assumed. No clinical history, patient demographics, sex, diagnosis, management, or other information is available.
+
+The question: based only on the available inputs listed above, should this lesion be considered suspicious for malignancy and referred for further biopsy?
+
+Use label 1 when the available inputs support suspicion of malignancy and warrant further biopsy.
+Use label 0 when the available inputs do not support suspicion of malignancy, including benign-appearing, low-suspicion, equivocal, nonspecific, or insufficient evidence for biopsy.
+
+Instead of a single label, output your estimated probability that the correct label is 1 (suspicious for malignancy, refer for biopsy), as a single decimal number between 0.00 and 1.00 (0.00 = label 0 for certain, 1.00 = label 1 for certain). Reply with ONLY the number, e.g. "0.73".
+
+----------------------------------------------------------------------
+<image description> is one of:
+  One clinical photograph of a skin lesion.
+  One dermoscopic image of a skin lesion.
+  Two images of the same skin lesion are provided in this order: clinical photograph and dermoscopic image.
+
+<lesion location> and <lesion elevation> are the Derm7pt metadata values, e.g. "back", "lower limbs"; "flat", "palpable", "nodular".

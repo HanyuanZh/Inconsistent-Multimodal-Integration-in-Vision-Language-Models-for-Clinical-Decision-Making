@@ -1,0 +1,82 @@
+Task: Clinically significant prostate cancer detection (PI-CAI)
+Response format: verbalised probability
+Used by: MedGemma-4B, Lingshu-7B, Lingshu-32B, DeepSeek-VL2-tiny, DeepSeek-VL2-small, Qwen3.6-35B-A3B
+Images: the MRI sequences are given before the text, in the order T2W, DWI, ADC.
+The redundant-image experiment uses the image-only prompt unchanged.
+======================================================================
+
+[Image only]
+
+You are performing a binary classification task for clinically significant prostate cancer.
+
+Available inputs:
+- Prostate MRI: <MRI description>
+
+Unavailable inputs must not be assumed. No PSA, prostate volume, PSA density, biopsy results, or other clinical information is available.
+
+Clinically significant prostate cancer means PI-RADS 4-5 or an equivalent level of suspicion.
+
+Use label 1 when the available inputs support clinically significant prostate cancer. Use label 0 when the available inputs do not support clinically significant prostate cancer, including negative, benign-appearing, low-suspicion, equivocal, limited, nonspecific, or insufficient evidence.
+
+Instead of a single label, output your estimated probability that the correct label is 1 (clinically significant prostate cancer is present), as a single decimal number between 0.00 and 1.00 (0.00 = label 0 for certain, 1.00 = label 1 for certain). Reply with ONLY the number, e.g. "0.73".
+
+[Image + PSA]
+
+You are performing a binary classification task for clinically significant prostate cancer.
+
+Available inputs:
+- Prostate MRI: <MRI description>
+- Serum PSA: <PSA> ng/mL
+
+Unavailable inputs must not be assumed. No prostate volume, PSA density, biopsy results, or other clinical information is available.
+
+Clinically significant prostate cancer means PI-RADS 4-5 or an equivalent level of suspicion.
+
+Use label 1 when the available inputs support clinically significant prostate cancer. Use label 0 when the available inputs do not support clinically significant prostate cancer, including negative, benign-appearing, low-suspicion, equivocal, limited, nonspecific, or insufficient evidence.
+
+Instead of a single label, output your estimated probability that the correct label is 1 (clinically significant prostate cancer is present), as a single decimal number between 0.00 and 1.00 (0.00 = label 0 for certain, 1.00 = label 1 for certain). Reply with ONLY the number, e.g. "0.73".
+
+[Image + prostate volume]
+
+You are performing a binary classification task for clinically significant prostate cancer.
+
+Available inputs:
+- Prostate MRI: <MRI description>
+- Prostate volume: <prostate volume> mL
+
+Unavailable inputs must not be assumed. No PSA, PSA density, biopsy results, or other clinical information is available.
+
+Clinically significant prostate cancer means PI-RADS 4-5 or an equivalent level of suspicion.
+
+Use label 1 when the available inputs support clinically significant prostate cancer. Use label 0 when the available inputs do not support clinically significant prostate cancer, including negative, benign-appearing, low-suspicion, equivocal, limited, nonspecific, or insufficient evidence.
+
+Instead of a single label, output your estimated probability that the correct label is 1 (clinically significant prostate cancer is present), as a single decimal number between 0.00 and 1.00 (0.00 = label 0 for certain, 1.00 = label 1 for certain). Reply with ONLY the number, e.g. "0.73".
+
+[Image + PSA + prostate volume]
+
+You are performing a binary classification task for clinically significant prostate cancer.
+
+Available inputs:
+- Prostate MRI: <MRI description>
+- Serum PSA: <PSA> ng/mL
+- Prostate volume: <prostate volume> mL
+
+Unavailable inputs must not be assumed. No PSA density, biopsy results, or other clinical information is available.
+
+Clinically significant prostate cancer means PI-RADS 4-5 or an equivalent level of suspicion.
+
+Use label 1 when the available inputs support clinically significant prostate cancer. Use label 0 when the available inputs do not support clinically significant prostate cancer, including negative, benign-appearing, low-suspicion, equivocal, limited, nonspecific, or insufficient evidence.
+
+Instead of a single label, output your estimated probability that the correct label is 1 (clinically significant prostate cancer is present), as a single decimal number between 0.00 and 1.00 (0.00 = label 0 for certain, 1.00 = label 1 for certain). Reply with ONLY the number, e.g. "0.73".
+
+----------------------------------------------------------------------
+<MRI description> is one of:
+  One prostate MRI sequence is provided: T2-weighted (T2W).
+  One prostate MRI sequence is provided: DWI (high b-value).
+  One prostate MRI sequence is provided: ADC map.
+  Multiple prostate MRI sequences from the same case are provided in this order: T2-weighted (T2W), DWI (high b-value).
+  Multiple prostate MRI sequences from the same case are provided in this order: T2-weighted (T2W), ADC map.
+  Multiple prostate MRI sequences from the same case are provided in this order: DWI (high b-value), ADC map.
+  Multiple prostate MRI sequences from the same case are provided in this order: T2-weighted (T2W), DWI (high b-value), ADC map.
+
+<PSA> and <prostate volume> are written with two decimals, e.g. 7.70 and 55.00.

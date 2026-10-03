@@ -1,0 +1,16 @@
+Task: AMD classification (MMC-AMD)
+Response format: verbalised probability
+Used by: Lingshu-7B, Lingshu-32B, DeepSeek-VL2-tiny, DeepSeek-VL2-small
+Images: given before the text; CFP alone, one OCT B-scan alone, or the CFP followed by one OCT B-scan.
+The prompt is the same for all three. The redundant-image experiment uses it unchanged.
+======================================================================
+
+You are given retinal imaging from one eye. CFP means color fundus photography, and OCT means optical coherence tomography. Classify this eye into exactly one of these four categories:
+0 = Normal (no AMD)
+1 = dry AMD (non-neovascular / atrophic)
+2 = wet AMD (neovascular / exudative)
+3 = PCV (polypoidal choroidal vasculopathy)
+
+Instead of a single label, estimate the PROBABILITY that this eye belongs to each category. Output four decimals between 0.00 and 1.00 that sum to 1.00, in this EXACT order and format (no other text):
+Normal=<p0> dry=<p1> wet=<p2> PCV=<p3>
+For example: "Normal=0.10 dry=0.05 wet=0.70 PCV=0.15".

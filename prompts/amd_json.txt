@@ -1,0 +1,14 @@
+Task: AMD classification (MMC-AMD)
+Response format: class label and probabilities as JSON
+Used by: Gemini-3.5-Flash, GPT-5.6-Sol
+Images: given before the text; CFP alone, one OCT B-scan alone, or the CFP followed by one OCT B-scan.
+The prompt is the same for all three. The redundant-image experiment uses it unchanged.
+======================================================================
+
+You are given retinal imaging from one eye. CFP means color fundus photography, and OCT means optical coherence tomography. Classify this eye into exactly one of these four categories:
+0 = Normal (no AMD)
+1 = dry AMD (non-neovascular / atrophic)
+2 = wet AMD (neovascular / exudative)
+3 = PCV (polypoidal choroidal vasculopathy)
+
+Reply with strict JSON only, with no markdown or explanation: {"amd_class": 0, 1, 2 or 3, "prob_normal": number between 0 and 1, "prob_dry_amd": number between 0 and 1, "prob_wet_amd": number between 0 and 1, "prob_pcv": number between 0 and 1}. The probabilities must sum to 1. Use as "amd_class" the class with the highest probability.

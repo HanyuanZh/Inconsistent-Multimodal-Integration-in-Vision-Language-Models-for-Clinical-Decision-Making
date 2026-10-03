@@ -1,0 +1,82 @@
+Task: Clinically significant prostate cancer detection (PI-CAI)
+Response format: class label and probabilities as JSON
+Used by: Gemini-3.5-Flash, GPT-5.6-Sol
+Images: the MRI sequences are given before the text, in the order T2W, DWI, ADC.
+The redundant-image experiment uses the image-only prompt unchanged.
+======================================================================
+
+[Image only]
+
+You are performing a binary classification task for clinically significant prostate cancer.
+
+Available inputs:
+- Prostate MRI: <MRI description>
+
+Unavailable inputs must not be assumed. No PSA, prostate volume, PSA density, biopsy results, or other clinical information is available.
+
+Clinically significant prostate cancer means PI-RADS 4-5 or an equivalent level of suspicion.
+
+Use label 1 when the available inputs support clinically significant prostate cancer. Use label 0 when the available inputs do not support clinically significant prostate cancer, including negative, benign-appearing, low-suspicion, equivocal, limited, nonspecific, or insufficient evidence.
+
+Reply with strict JSON only, with no markdown or explanation: {"cspca": 0 or 1, "prob_0": number between 0 and 1, "prob_1": number between 0 and 1}. The probabilities must sum to 1. Use "cspca": 1 when prob_1 >= prob_0, otherwise use "cspca": 0.
+
+[Image + PSA]
+
+You are performing a binary classification task for clinically significant prostate cancer.
+
+Available inputs:
+- Prostate MRI: <MRI description>
+- Serum PSA: <PSA> ng/mL
+
+Unavailable inputs must not be assumed. No prostate volume, PSA density, biopsy results, or other clinical information is available.
+
+Clinically significant prostate cancer means PI-RADS 4-5 or an equivalent level of suspicion.
+
+Use label 1 when the available inputs support clinically significant prostate cancer. Use label 0 when the available inputs do not support clinically significant prostate cancer, including negative, benign-appearing, low-suspicion, equivocal, limited, nonspecific, or insufficient evidence.
+
+Reply with strict JSON only, with no markdown or explanation: {"cspca": 0 or 1, "prob_0": number between 0 and 1, "prob_1": number between 0 and 1}. The probabilities must sum to 1. Use "cspca": 1 when prob_1 >= prob_0, otherwise use "cspca": 0.
+
+[Image + prostate volume]
+
+You are performing a binary classification task for clinically significant prostate cancer.
+
+Available inputs:
+- Prostate MRI: <MRI description>
+- Prostate volume: <prostate volume> mL
+
+Unavailable inputs must not be assumed. No PSA, PSA density, biopsy results, or other clinical information is available.
+
+Clinically significant prostate cancer means PI-RADS 4-5 or an equivalent level of suspicion.
+
+Use label 1 when the available inputs support clinically significant prostate cancer. Use label 0 when the available inputs do not support clinically significant prostate cancer, including negative, benign-appearing, low-suspicion, equivocal, limited, nonspecific, or insufficient evidence.
+
+Reply with strict JSON only, with no markdown or explanation: {"cspca": 0 or 1, "prob_0": number between 0 and 1, "prob_1": number between 0 and 1}. The probabilities must sum to 1. Use "cspca": 1 when prob_1 >= prob_0, otherwise use "cspca": 0.
+
+[Image + PSA + prostate volume]
+
+You are performing a binary classification task for clinically significant prostate cancer.
+
+Available inputs:
+- Prostate MRI: <MRI description>
+- Serum PSA: <PSA> ng/mL
+- Prostate volume: <prostate volume> mL
+
+Unavailable inputs must not be assumed. No PSA density, biopsy results, or other clinical information is available.
+
+Clinically significant prostate cancer means PI-RADS 4-5 or an equivalent level of suspicion.
+
+Use label 1 when the available inputs support clinically significant prostate cancer. Use label 0 when the available inputs do not support clinically significant prostate cancer, including negative, benign-appearing, low-suspicion, equivocal, limited, nonspecific, or insufficient evidence.
+
+Reply with strict JSON only, with no markdown or explanation: {"cspca": 0 or 1, "prob_0": number between 0 and 1, "prob_1": number between 0 and 1}. The probabilities must sum to 1. Use "cspca": 1 when prob_1 >= prob_0, otherwise use "cspca": 0.
+
+----------------------------------------------------------------------
+<MRI description> is one of:
+  One prostate MRI sequence is provided: T2-weighted (T2W).
+  One prostate MRI sequence is provided: DWI (high b-value).
+  One prostate MRI sequence is provided: ADC map.
+  Multiple prostate MRI sequences from the same case are provided in this order: T2-weighted (T2W), DWI (high b-value).
+  Multiple prostate MRI sequences from the same case are provided in this order: T2-weighted (T2W), ADC map.
+  Multiple prostate MRI sequences from the same case are provided in this order: DWI (high b-value), ADC map.
+  Multiple prostate MRI sequences from the same case are provided in this order: T2-weighted (T2W), DWI (high b-value), ADC map.
+
+<PSA> and <prostate volume> are written with two decimals, e.g. 7.70 and 55.00.
